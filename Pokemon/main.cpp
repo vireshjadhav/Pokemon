@@ -20,9 +20,9 @@ public:
     //Default constructor
     Pokemon()
     {
-        name = "Unknown";
-        type = PokemonType::NORMAL;
-        health = 50;
+        name = "Pikachu";
+        type = PokemonType::ELECTRIC;
+        health = 10;
         cout << "A new Pokemon has been created with the default constructor!" << endl;
     }
 
@@ -78,6 +78,13 @@ public:
         name = p_name;
         chosenPokemon = p_chosenPokemon;
         cout << "Player " << name << " has been created!" << endl;
+    }
+
+    //Copy constructor
+    Player(const Player& other)
+    {
+        name = other.name;
+        chosenPokemon = other.chosenPokemon;
     }
 
     //Function to choose a pokemon
@@ -207,7 +214,7 @@ int main() {
 
     //Third task
     {
-        Pokemon squirtel("Squirtle", PokemonType::WATER, 100)
+        Pokemon squirtel("Squirtle", PokemonType::WATER, 100);
     }
 
     //Initialize Professor Oak 
