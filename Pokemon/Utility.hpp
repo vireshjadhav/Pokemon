@@ -1,16 +1,9 @@
-//Function to clear the console
-void clearConsole()
-{
-#ifdef _WIN32
-    system("cls");
-#else
-    (void)system("clear");
-#endif
-}
+//Utility.hpp
 
-
-//Function to wait for user to press Enter
-void waitForEnter()
+class Utility 
 {
-    cin.get();
-}
+public:
+	static void clearConsole();
+	static void waitForEnter();
+	static void clearInputBuffer();
+};
