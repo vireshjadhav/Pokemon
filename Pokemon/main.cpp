@@ -4,7 +4,6 @@
 #include "PokemonType.hpp"
 #include "PokemonChoice.hpp"
 #include "Utility.hpp"
-#include "Player.hpp"
 using namespace std;
 
 
@@ -52,6 +51,8 @@ public:
         cout << name << "attacks with a powerful move!" << endl;
     }
 };
+
+#include "Player.hpp"
 
 ////Creating a class (player)
 //class Player
