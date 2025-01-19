@@ -1,6 +1,9 @@
 //Player.cpp
 include "Player.hpp"
-include "iostream"
+include "PokemonChoice.hpp"
+include "PokemonTypes.hpp"
+incldue "Utility.hpp"
+include <iostream>
 using namespace std;
 
 

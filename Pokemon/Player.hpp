@@ -1,7 +1,4 @@
 include <string>
-include "PokemonChoice.hpp"
-include "PokemonTypes.hpp"
-incldue "Utility.hpp"
 using namespace std;
 
 class Player 
