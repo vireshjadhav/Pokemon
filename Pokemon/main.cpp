@@ -4,6 +4,7 @@
 #include "PokemonType.hpp"
 #include "PokemonChoice.hpp"
 #include "Utility.hpp"
+#include "Player.hpp"
 using namespace std;
 
 
@@ -52,57 +53,57 @@ public:
     }
 };
 
-//Creating a class (player)
-class Player
-{
-    //Attributes
-public:
-    string name;
-    Pokemon chosenPokemon;
-
-    //Default constructor
-    Player() {
-        name = "Trainer";
-        chosenPokemon = Pokemon();//Using the default Pokemon constructor
-    }
-
-
-    //Parameterized constructor
-    Player(string p_name, Pokemon p_chosenPokemon) {
-        name = p_name;
-        chosenPokemon = p_chosenPokemon;
-    }
-
-    //Copy constructor
-    Player(const Player& other)
-    {
-        name = other.name;
-        chosenPokemon = other.chosenPokemon;
-    }
-
-    //Function to choose a pokemon
-    void choosePokemon(int choice)
-    {
-        //Store the choice integer to respective pokemon
-        switch ((PokemonChoice)choice)
-        {
-        case PokemonChoice::CHARMANDER:
-            chosenPokemon = Pokemon("Charmander", PokemonType::FIRE, 100);
-            break;
-        case PokemonChoice::BULBASAUR:
-            chosenPokemon = Pokemon("Bulbasaur", PokemonType::GRASS, 100);
-            break;
-        case PokemonChoice::SQUIRTLE:
-            chosenPokemon = Pokemon("Squirtle", PokemonType::WATER, 100);
-            break;
-        default:
-            chosenPokemon = Pokemon("Pikachu", PokemonType::ELECTRIC, 100);
-        }
-        cout << "Player " << name << " chose " << chosenPokemon.name << "!" << endl;
-
-        Utility::waitForEnter();
-    }
-};
+////Creating a class (player)
+//class Player
+//{
+//    //Attributes
+//public:
+//    string name;
+//    Pokemon chosenPokemon;
+//
+//    //Default constructor
+//    Player() {
+//        name = "Trainer";
+//        chosenPokemon = Pokemon();//Using the default Pokemon constructor
+//    }
+//
+//
+//    //Parameterized constructor
+//    Player(string p_name, Pokemon p_chosenPokemon) {
+//        name = p_name;
+//        chosenPokemon = p_chosenPokemon;
+//    }
+//
+//    //Copy constructor
+//    Player(const Player& other)
+//    {
+//        name = other.name;
+//        chosenPokemon = other.chosenPokemon;
+//    }
+//
+//    //Function to choose a pokemon
+//    void choosePokemon(int choice)
+//    {
+//        //Store the choice integer to respective pokemon
+//        switch ((PokemonChoice)choice)
+//        {
+//        case PokemonChoice::CHARMANDER:
+//            chosenPokemon = Pokemon("Charmander", PokemonType::FIRE, 100);
+//            break;
+//        case PokemonChoice::BULBASAUR:
+//            chosenPokemon = Pokemon("Bulbasaur", PokemonType::GRASS, 100);
+//            break;
+//        case PokemonChoice::SQUIRTLE:
+//            chosenPokemon = Pokemon("Squirtle", PokemonType::WATER, 100);
+//            break;
+//        default:
+//            chosenPokemon = Pokemon("Pikachu", PokemonType::ELECTRIC, 100);
+//        }
+//        cout << "Player " << name << " chose " << chosenPokemon.name << "!" << endl;
+//
+//        Utility::waitForEnter();
+//    }
+//};
 
 //Creating a class for Professor Oak
 class ProfessorOak
