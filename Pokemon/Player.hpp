@@ -1,4 +1,5 @@
 #include <string>
+#include "Pokemon.hpp"
 using namespace std;
 
 enum class PokemonType;
@@ -10,7 +11,6 @@ public:
 
 Player(); //default constructor
 Player(string p_name, Pokemon p_chosenPokemon); //parameterized constructor
-player(const Player& other); //copy cnstructor
 
 void choosePokemon(int choice); // method to choose pokemon
 };
