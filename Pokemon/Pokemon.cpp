@@ -1,9 +1,6 @@
 #include "Pokemon.hpp"
-#include "PokemonChoice.hpp"
-#incldue "PokemonType.hpp"
-#include "Player.hpp"
 #include "Utility.hpp
-#incldue <iostream>
+#include <iostream>
 using namespace std;
 
 //Default constructor

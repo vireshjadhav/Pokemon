@@ -1,7 +1,7 @@
 #include <string>
-#include "ProfessorOak.cpp"
 using namespace std;
 
+enum class PokemonType;
 class ProfessorOak
 {
 public:

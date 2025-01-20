@@ -1,15 +1,16 @@
-include <string>
+#include <string>
 using namespace std;
 
+enum class PokemonType;
 class Player 
 {
 public:
     string name;
     Pokemon chosenPokemon;
 
-Player();
-Player(string p_name, Pokemon p_chosenPokemon);
-player(const player& other)
+Player(); //default constructor
+Player(string p_name, Pokemon p_chosenPokemon); //parameterized constructor
+player(const Player& other); //copy cnstructor
 
-void choosePokemon(int choice);
+void choosePokemon(int choice); // method to choose pokemon
 };

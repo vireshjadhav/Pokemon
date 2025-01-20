@@ -1,6 +1,7 @@
-#incldue <string>
+#include <string>
 using namespace std;
 
+enum class PokemonType;
 class Pokemon
 {
 public:
@@ -8,11 +9,12 @@ public:
     string name;
     PokemonType type;
     int health;
-Pokemon();
-Pokemon(string p_name, Pokeon P_type, int p_heath);
-Pokemon(const Pokemon& other);
 
-~pokemon()
+Pokemon(); //default constructor 
+Pokemon(string p_name, Pokemon P_type, int p_heath); //parameterized constructor
+Pokemon(const Pokemon &other); //copy constructor
 
-void attack();
+~Pokemon(); // destructor
+
+void attack(); //function to attack
 };

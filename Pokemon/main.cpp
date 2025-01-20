@@ -1,7 +1,8 @@
+#include "Player.hpp"
+#include "Pokemon.hpp"
 #include "PokemonChoice.hpp"
 #include "PokemonType.hpp"
 #include "Utility.hpp"
-#include "Pokemon.hpp"
 #include "ProfessorOak.hpp"
 #include <iostream>
 #include <limits>
@@ -53,8 +54,6 @@ using namespace std;
 //         cout << name << "attacks with a powerful move!" << endl;
 //     }
 // };
-
-#include "Player.hpp"
 
 ////Creating a class (player)
 //class Player
