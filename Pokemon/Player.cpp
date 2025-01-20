@@ -1,7 +1,6 @@
 //Player.cpp
 #include "Player.hpp"
 #include "PokemonChoice.hpp"
-#include "PokemonType.hpp"
 #include "Utility.hpp"
 #include <iostream>
 using namespace std;
@@ -20,12 +19,6 @@ Player::Player(string p_name, Pokemon p_chosenPokemon)
     chosenPokemon = p_chosenPokemon;
 }
 
-//Copy constructor
-Player::Player(const Player& other)
-{
-    name = other.name;
-    chosenPokemon = other.chosenPokemon;
-}
 
     //Function to choose a pokemon
 void Player::choosePokemon(int choice)
