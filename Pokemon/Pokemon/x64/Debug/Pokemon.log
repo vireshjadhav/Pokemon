@@ -1,30 +1,156 @@
 ﻿  main.cpp
-F:\CPP Projects\Pokemon\Pokemon\Player.hpp(9,13): error C3646: 'chosenPokemon': unknown override specifier
+F:\CPP Projects\Pokemon\Pokemon\Pokemon.hpp(5,7): error C2011: 'Pokemon': 'class' type redefinition
   (compiling source file 'main.cpp')
+      F:\CPP Projects\Pokemon\Pokemon\Pokemon.hpp(5,7):
+      see declaration of 'Pokemon'
   
-F:\CPP Projects\Pokemon\Pokemon\Player.hpp(9,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-  (compiling source file 'main.cpp')
-  
-F:\CPP Projects\Pokemon\Pokemon\Player.hpp(12,23): error C2061: syntax error: identifier 'Pokemon'
-  (compiling source file 'main.cpp')
-  
-F:\CPP Projects\Pokemon\Pokemon\Player.hpp(13,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-  (compiling source file 'main.cpp')
-  
-F:\CPP Projects\Pokemon\Pokemon\Player.hpp(13,1): warning C4183: 'player': missing return type; assumed to be a member function returning 'int'
-  (compiling source file 'main.cpp')
-  
-F:\CPP Projects\Pokemon\Pokemon\main.cpp(267,23): error C2665: 'Pokemon::Pokemon': no overloaded function could convert all the argument types
-      F:\CPP Projects\Pokemon\Pokemon\Pokemon.hpp(14,1):
-      could be 'Pokemon::Pokemon(std::string,Pokemon,int)'
-          F:\CPP Projects\Pokemon\Pokemon\main.cpp(267,23):
-          'Pokemon::Pokemon(std::string,Pokemon,int)': cannot convert argument 2 from 'PokemonType' to 'Pokemon'
-              F:\CPP Projects\Pokemon\Pokemon\main.cpp(267,51):
-              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+F:\CPP Projects\Pokemon\Pokemon\main.cpp(267,13): error C2079: 'charmander' uses undefined class 'Pokemon'
+F:\CPP Projects\Pokemon\Pokemon\main.cpp(267,23): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
       F:\CPP Projects\Pokemon\Pokemon\main.cpp(267,23):
-      while trying to match the argument list '(const char [11], PokemonType, int)'
+      The initializer contains too many elements
   
-F:\CPP Projects\Pokemon\Pokemon\main.cpp(271,18): error C2661: 'Player::Player': no overloaded function takes 2 arguments
+F:\CPP Projects\Pokemon\Pokemon\main.cpp(271,18): error C2665: 'Player::Player': no overloaded function could convert all the argument types
+      F:\CPP Projects\Pokemon\Pokemon\Player.hpp(13,1):
+      could be 'Player::Player(std::string,Pokemon)'
+          F:\CPP Projects\Pokemon\Pokemon\main.cpp(271,18):
+          'Player::Player(std::string,Pokemon)': cannot convert argument 2 from 'int' to 'Pokemon'
+              F:\CPP Projects\Pokemon\Pokemon\main.cpp(271,26):
+              use of undefined type 'Pokemon'
+              F:\CPP Projects\Pokemon\Pokemon\Pokemon.hpp(5,7):
+              see declaration of 'Pokemon'
       F:\CPP Projects\Pokemon\Pokemon\main.cpp(271,18):
-      while trying to match the argument list '(const char [4], Pokemon)'
+      while trying to match the argument list '(const char [4], int)'
   
+  Player.cpp
+F:\CPP Projects\Pokemon\Pokemon\Player.cpp(29,25): error C2440: 'type cast': cannot convert from 'PokemonChoice' to 'PokemonType'
+      F:\CPP Projects\Pokemon\Pokemon\Player.cpp(29,25):
+      Conversion to enumeration type requires an explicit cast (static_cast, C-style cast or parenthesized function-style cast)
+  
+F:\CPP Projects\Pokemon\Pokemon\Player.cpp(29,5): error C2046: illegal case
+F:\CPP Projects\Pokemon\Pokemon\Player.cpp(30,60): error C2027: use of undefined type 'PokemonType'
+      F:\CPP Projects\Pokemon\Pokemon\Pokemon.hpp(4,12):
+      see declaration of 'PokemonType'
+  
+F:\CPP Projects\Pokemon\Pokemon\Player.cpp(30,60): error C2065: 'FIRE': undeclared identifier
+F:\CPP Projects\Pokemon\Pokemon\Player.cpp(32,25): error C2440: 'type cast': cannot convert from 'PokemonChoice' to 'PokemonType'
+      F:\CPP Projects\Pokemon\Pokemon\Player.cpp(32,25):
+      Conversion to enumeration type requires an explicit cast (static_cast, C-style cast or parenthesized function-style cast)
+  
+F:\CPP Projects\Pokemon\Pokemon\Player.cpp(32,5): error C2046: illegal case
+F:\CPP Projects\Pokemon\Pokemon\Player.cpp(33,59): error C2027: use of undefined type 'PokemonType'
+      F:\CPP Projects\Pokemon\Pokemon\Pokemon.hpp(4,12):
+      see declaration of 'PokemonType'
+  
+F:\CPP Projects\Pokemon\Pokemon\Player.cpp(33,59): error C2065: 'GRASS': undeclared identifier
+F:\CPP Projects\Pokemon\Pokemon\Player.cpp(35,25): error C2440: 'type cast': cannot convert from 'PokemonChoice' to 'PokemonType'
+      F:\CPP Projects\Pokemon\Pokemon\Player.cpp(35,25):
+      Conversion to enumeration type requires an explicit cast (static_cast, C-style cast or parenthesized function-style cast)
+  
+F:\CPP Projects\Pokemon\Pokemon\Player.cpp(35,5): error C2046: illegal case
+F:\CPP Projects\Pokemon\Pokemon\Player.cpp(36,58): error C2027: use of undefined type 'PokemonType'
+      F:\CPP Projects\Pokemon\Pokemon\Pokemon.hpp(4,12):
+      see declaration of 'PokemonType'
+  
+F:\CPP Projects\Pokemon\Pokemon\Player.cpp(36,58): error C2065: 'WATER': undeclared identifier
+F:\CPP Projects\Pokemon\Pokemon\Player.cpp(39,57): error C2027: use of undefined type 'PokemonType'
+      F:\CPP Projects\Pokemon\Pokemon\Pokemon.hpp(4,12):
+      see declaration of 'PokemonType'
+  
+F:\CPP Projects\Pokemon\Pokemon\Player.cpp(39,57): error C2065: 'ELECTRIC': undeclared identifier
+F:\CPP Projects\Pokemon\Pokemon\Player.cpp(40,5): warning C4065: switch statement contains 'default' but no 'case' labels
+  Pokemon.cpp
+F:\CPP Projects\Pokemon\Pokemon\Pokemon.cpp(9,23): error C2027: use of undefined type 'PokemonType'
+      F:\CPP Projects\Pokemon\Pokemon\Pokemon.hpp(4,12):
+      see declaration of 'PokemonType'
+  
+F:\CPP Projects\Pokemon\Pokemon\Pokemon.cpp(9,23): error C2065: 'NORMAL': undeclared identifier
+F:\CPP Projects\Pokemon\Pokemon\Pokemon.cpp(14,10): error C2511: 'Pokemon::Pokemon(std::string,PokemonType,int)': overloaded member function not found in 'Pokemon'
+      F:\CPP Projects\Pokemon\Pokemon\Pokemon.hpp(5,7):
+      see declaration of 'Pokemon'
+  
+F:\CPP Projects\Pokemon\Pokemon\Pokemon.cpp(16,3): error C2597: illegal reference to non-static member 'Pokemon::name'
+      F:\CPP Projects\Pokemon\Pokemon\Pokemon.hpp(9,12):
+      see declaration of 'Pokemon::name'
+  
+F:\CPP Projects\Pokemon\Pokemon\Pokemon.cpp(17,3): error C2597: illegal reference to non-static member 'Pokemon::type'
+      F:\CPP Projects\Pokemon\Pokemon\Pokemon.hpp(10,17):
+      see declaration of 'Pokemon::type'
+  
+F:\CPP Projects\Pokemon\Pokemon\Pokemon.cpp(18,3): error C2597: illegal reference to non-static member 'Pokemon::health'
+      F:\CPP Projects\Pokemon\Pokemon\Pokemon.hpp(11,9):
+      see declaration of 'Pokemon::health'
+  
+  ProfessorOak.cpp
+F:\CPP Projects\Pokemon\Pokemon\ProfessorOak.cpp(13,6): error C2653: 'Professor': is not a class or namespace name
+F:\CPP Projects\Pokemon\Pokemon\ProfessorOak.cpp(15,13): error C2065: 'name': undeclared identifier
+F:\CPP Projects\Pokemon\Pokemon\ProfessorOak.cpp(17,13): error C2065: 'name': undeclared identifier
+F:\CPP Projects\Pokemon\Pokemon\ProfessorOak.cpp(19,13): error C2065: 'name': undeclared identifier
+F:\CPP Projects\Pokemon\Pokemon\ProfessorOak.cpp(25,6): error C2653: 'Professor': is not a class or namespace name
+F:\CPP Projects\Pokemon\Pokemon\ProfessorOak.cpp(28,13): error C2065: 'name': undeclared identifier
+F:\CPP Projects\Pokemon\Pokemon\ProfessorOak.cpp(29,18): error C2027: use of undefined type 'Player'
+      F:\CPP Projects\Pokemon\Pokemon\ProfessorOak.hpp(4,7):
+      see declaration of 'Player'
+  
+F:\CPP Projects\Pokemon\Pokemon\ProfessorOak.cpp(29,5): error C2672: 'getline': no matching overloaded function found
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\string(82,32):
+      could be 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)'
+          F:\CPP Projects\Pokemon\Pokemon\ProfessorOak.cpp(29,5):
+          'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)': expects 2 arguments - 1 provided
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\string(75,32):
+      or       'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)'
+          F:\CPP Projects\Pokemon\Pokemon\ProfessorOak.cpp(29,5):
+          'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)': expects 3 arguments - 1 provided
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\string(68,32):
+      or       'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &)'
+          F:\CPP Projects\Pokemon\Pokemon\ProfessorOak.cpp(29,5):
+          'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &)': expects 2 arguments - 1 provided
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\string(25,32):
+      or       'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)'
+          F:\CPP Projects\Pokemon\Pokemon\ProfessorOak.cpp(29,5):
+          'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)': expects 3 arguments - 1 provided
+  
+F:\CPP Projects\Pokemon\Pokemon\ProfessorOak.cpp(30,13): error C2065: 'name': undeclared identifier
+F:\CPP Projects\Pokemon\Pokemon\ProfessorOak.cpp(30,33): error C2027: use of undefined type 'Player'
+      F:\CPP Projects\Pokemon\Pokemon\ProfessorOak.hpp(4,7):
+      see declaration of 'Player'
+  
+F:\CPP Projects\Pokemon\Pokemon\ProfessorOak.cpp(32,13): error C2065: 'name': undeclared identifier
+F:\CPP Projects\Pokemon\Pokemon\ProfessorOak.cpp(36,13): error C2065: 'name': undeclared identifier
+F:\CPP Projects\Pokemon\Pokemon\ProfessorOak.cpp(38,13): error C2065: 'name': undeclared identifier
+F:\CPP Projects\Pokemon\Pokemon\ProfessorOak.cpp(44,13): error C2065: 'name': undeclared identifier
+F:\CPP Projects\Pokemon\Pokemon\ProfessorOak.cpp(47,5): error C2027: use of undefined type 'Player'
+      F:\CPP Projects\Pokemon\Pokemon\ProfessorOak.hpp(4,7):
+      see declaration of 'Player'
+  
+F:\CPP Projects\Pokemon\Pokemon\ProfessorOak.cpp(52,6): error C2653: 'Professor': is not a class or namespace name
+F:\CPP Projects\Pokemon\Pokemon\ProfessorOak.cpp(55,13): error C2065: 'name': undeclared identifier
+F:\CPP Projects\Pokemon\Pokemon\ProfessorOak.cpp(55,36): error C2027: use of undefined type 'Player'
+      F:\CPP Projects\Pokemon\Pokemon\ProfessorOak.hpp(4,7):
+      see declaration of 'Player'
+  
+F:\CPP Projects\Pokemon\Pokemon\ProfessorOak.cpp(57,13): error C2065: 'name': undeclared identifier
+F:\CPP Projects\Pokemon\Pokemon\ProfessorOak.cpp(59,13): error C2065: 'name': undeclared identifier
+F:\CPP Projects\Pokemon\Pokemon\ProfessorOak.cpp(61,13): error C2027: use of undefined type 'Player'
+      F:\CPP Projects\Pokemon\Pokemon\ProfessorOak.hpp(4,7):
+      see declaration of 'Player'
+  
+F:\CPP Projects\Pokemon\Pokemon\ProfessorOak.cpp(63,13): error C2065: 'name': undeclared identifier
+F:\CPP Projects\Pokemon\Pokemon\ProfessorOak.cpp(63,65): error C2027: use of undefined type 'Player'
+      F:\CPP Projects\Pokemon\Pokemon\ProfessorOak.hpp(4,7):
+      see declaration of 'Player'
+  
+F:\CPP Projects\Pokemon\Pokemon\ProfessorOak.cpp(65,21): error C2065: 'name': undeclared identifier
+F:\CPP Projects\Pokemon\Pokemon\ProfessorOak.cpp(67,13): error C2065: 'name': undeclared identifier
+F:\CPP Projects\Pokemon\Pokemon\ProfessorOak.cpp(69,13): error C2027: use of undefined type 'Player'
+      F:\CPP Projects\Pokemon\Pokemon\ProfessorOak.hpp(4,7):
+      see declaration of 'Player'
+  
+F:\CPP Projects\Pokemon\Pokemon\ProfessorOak.cpp(71,13): error C2065: 'name': undeclared identifier
+F:\CPP Projects\Pokemon\Pokemon\ProfessorOak.cpp(73,21): error C2065: 'name': undeclared identifier
+F:\CPP Projects\Pokemon\Pokemon\ProfessorOak.cpp(75,21): error C2027: use of undefined type 'Player'
+      F:\CPP Projects\Pokemon\Pokemon\ProfessorOak.hpp(4,7):
+      see declaration of 'Player'
+  
+F:\CPP Projects\Pokemon\Pokemon\ProfessorOak.cpp(77,21): error C2065: 'name': undeclared identifier
+F:\CPP Projects\Pokemon\Pokemon\ProfessorOak.cpp(79,13): error C2065: 'name': undeclared identifier
+  Generating Code...

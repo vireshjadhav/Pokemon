@@ -194,7 +194,7 @@ using namespace std;
 
 
 //Function to handle the main game loop
-void gameLoop(Player& player)
+void gameLoop(Player &player)
 {
     int choice;
     bool keepPlaying = true;
