@@ -1,30 +1,171 @@
 ﻿  main.cpp
-F:\CPP Projects\Pokemon\Pokemon\Player.hpp(9,13): error C3646: 'chosenPokemon': unknown override specifier
+D:\Viresh\Reps\Pokemon\Pokemon\PokemonType.hpp(2,12): error C2011: 'PokemonType': 'enum' type redefinition
   (compiling source file 'main.cpp')
+      D:\Viresh\Reps\Pokemon\Pokemon\PokemonType.hpp(2,12):
+      see declaration of 'PokemonType'
   
-F:\CPP Projects\Pokemon\Pokemon\Player.hpp(9,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-  (compiling source file 'main.cpp')
+D:\Viresh\Reps\Pokemon\Pokemon\main.cpp(267,51): error C2027: use of undefined type 'PokemonType'
+      D:\Viresh\Reps\Pokemon\Pokemon\PokemonType.hpp(2,12):
+      see declaration of 'PokemonType'
   
-F:\CPP Projects\Pokemon\Pokemon\Player.hpp(12,23): error C2061: syntax error: identifier 'Pokemon'
-  (compiling source file 'main.cpp')
+D:\Viresh\Reps\Pokemon\Pokemon\main.cpp(267,51): error C2065: 'FIRE': undeclared identifier
+  Player.cpp
+D:\Viresh\Reps\Pokemon\Pokemon\Player.hpp(12,10): error C2079: 'Player::chosenPokemon' uses undefined class 'Pokemon'
+  (compiling source file 'Player.cpp')
   
-F:\CPP Projects\Pokemon\Pokemon\Player.hpp(13,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-  (compiling source file 'main.cpp')
+D:\Viresh\Reps\Pokemon\Pokemon\Player.cpp(14,28): error C2440: '=': cannot convert from 'Pokemon' to 'int'
+      D:\Viresh\Reps\Pokemon\Pokemon\Player.cpp(14,28):
+      No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
   
-F:\CPP Projects\Pokemon\Pokemon\Player.hpp(13,1): warning C4183: 'player': missing return type; assumed to be a member function returning 'int'
-  (compiling source file 'main.cpp')
+D:\Viresh\Reps\Pokemon\Pokemon\Player.cpp(21,21): error C2440: '=': cannot convert from 'Pokemon' to 'int'
+      D:\Viresh\Reps\Pokemon\Pokemon\Player.cpp(21,21):
+      No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
   
-F:\CPP Projects\Pokemon\Pokemon\main.cpp(267,23): error C2665: 'Pokemon::Pokemon': no overloaded function could convert all the argument types
-      F:\CPP Projects\Pokemon\Pokemon\Pokemon.hpp(14,1):
-      could be 'Pokemon::Pokemon(std::string,Pokemon,int)'
-          F:\CPP Projects\Pokemon\Pokemon\main.cpp(267,23):
-          'Pokemon::Pokemon(std::string,Pokemon,int)': cannot convert argument 2 from 'PokemonType' to 'Pokemon'
-              F:\CPP Projects\Pokemon\Pokemon\main.cpp(267,51):
-              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
-      F:\CPP Projects\Pokemon\Pokemon\main.cpp(267,23):
-      while trying to match the argument list '(const char [11], PokemonType, int)'
+D:\Viresh\Reps\Pokemon\Pokemon\Player.cpp(32,32): error C2440: '=': cannot convert from 'Pokemon' to 'int'
+      D:\Viresh\Reps\Pokemon\Pokemon\Player.cpp(32,32):
+      No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
   
-F:\CPP Projects\Pokemon\Pokemon\main.cpp(271,18): error C2661: 'Player::Player': no overloaded function takes 2 arguments
-      F:\CPP Projects\Pokemon\Pokemon\main.cpp(271,18):
-      while trying to match the argument list '(const char [4], Pokemon)'
+D:\Viresh\Reps\Pokemon\Pokemon\Player.cpp(35,32): error C2440: '=': cannot convert from 'Pokemon' to 'int'
+      D:\Viresh\Reps\Pokemon\Pokemon\Player.cpp(35,32):
+      No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
   
+D:\Viresh\Reps\Pokemon\Pokemon\Player.cpp(38,32): error C2440: '=': cannot convert from 'Pokemon' to 'int'
+      D:\Viresh\Reps\Pokemon\Pokemon\Player.cpp(38,32):
+      No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  
+D:\Viresh\Reps\Pokemon\Pokemon\Player.cpp(41,32): error C2440: '=': cannot convert from 'Pokemon' to 'int'
+      D:\Viresh\Reps\Pokemon\Pokemon\Player.cpp(41,32):
+      No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  
+  ProfessorOak.cpp
+D:\Viresh\Reps\Pokemon\Pokemon\PokemonType.hpp(2,12): error C2011: 'PokemonType': 'enum' type redefinition
+  (compiling source file 'ProfessorOak.cpp')
+      D:\Viresh\Reps\Pokemon\Pokemon\PokemonType.hpp(2,12):
+      see declaration of 'PokemonType'
+  
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(16,5): error C2065: 'cout': undeclared identifier
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(16,74): error C2065: 'endl': undeclared identifier
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(17,5): error C2653: 'Utility': is not a class or namespace name
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(17,14): error C3861: 'waitForEnter': identifier not found
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(18,5): error C2065: 'cout': undeclared identifier
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(18,82): error C2065: 'endl': undeclared identifier
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(19,5): error C2653: 'Utility': is not a class or namespace name
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(19,14): error C3861: 'waitForEnter': identifier not found
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(20,5): error C2065: 'cout': undeclared identifier
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(20,71): error C2065: 'endl': undeclared identifier
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(21,5): error C2653: 'Utility': is not a class or namespace name
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(21,14): error C3861: 'waitForEnter': identifier not found
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(29,5): error C2065: 'cout': undeclared identifier
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(29,62): error C2065: 'endl': undeclared identifier
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(30,13): error C2065: 'cin': undeclared identifier
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(30,18): error C2027: use of undefined type 'Player'
+      D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.hpp(6,7):
+      see declaration of 'Player'
+  
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(31,5): error C2065: 'cout': undeclared identifier
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(31,33): error C2027: use of undefined type 'Player'
+      D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.hpp(6,7):
+      see declaration of 'Player'
+  
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(31,78): error C2065: 'endl': undeclared identifier
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(32,5): error C2653: 'Utility': is not a class or namespace name
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(32,14): error C3861: 'waitForEnter': identifier not found
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(33,5): error C2065: 'cout': undeclared identifier
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(33,117): error C2065: 'endl': undeclared identifier
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(34,5): error C2653: 'Utility': is not a class or namespace name
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(34,14): error C3861: 'waitForEnter': identifier not found
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(37,5): error C2065: 'cout': undeclared identifier
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(37,89): error C2065: 'endl': undeclared identifier
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(38,5): error C2653: 'Utility': is not a class or namespace name
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(38,14): error C3861: 'waitForEnter': identifier not found
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(39,5): error C2065: 'cout': undeclared identifier
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(39,45): error C2065: 'endl': undeclared identifier
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(40,5): error C2065: 'cout': undeclared identifier
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(40,65): error C2065: 'endl': undeclared identifier
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(41,5): error C2065: 'cout': undeclared identifier
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(41,69): error C2065: 'endl': undeclared identifier
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(42,5): error C2065: 'cout': undeclared identifier
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(42,68): error C2065: 'endl': undeclared identifier
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(45,5): error C2065: 'cout': undeclared identifier
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(46,5): error C2065: 'cin': undeclared identifier
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(48,5): error C2027: use of undefined type 'Player'
+      D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.hpp(6,7):
+      see declaration of 'Player'
+  
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(49,5): error C2653: 'Utility': is not a class or namespace name
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(49,14): error C3861: 'waitForEnter': identifier not found
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(55,5): error C2653: 'Utility': is not a class or namespace name
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(55,14): error C3861: 'clearConsole': identifier not found
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(56,5): error C2065: 'cout': undeclared identifier
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(56,36): error C2027: use of undefined type 'Player'
+      D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.hpp(6,7):
+      see declaration of 'Player'
+  
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(56,122): error C2065: 'endl': undeclared identifier
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(57,5): error C2653: 'Utility': is not a class or namespace name
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(57,14): error C3861: 'waitForEnter': identifier not found
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(58,5): error C2065: 'cout': undeclared identifier
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(58,127): error C2065: 'endl': undeclared identifier
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(59,5): error C2653: 'Utility': is not a class or namespace name
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(59,14): error C3861: 'waitForEnter': identifier not found
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(60,5): error C2065: 'cout': undeclared identifier
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(60,196): error C2065: 'endl': undeclared identifier
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(61,5): error C2653: 'Utility': is not a class or namespace name
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(61,14): error C3861: 'waitForEnter': identifier not found
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(62,5): error C2065: 'cout': undeclared identifier
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(62,13): error C2027: use of undefined type 'Player'
+      D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.hpp(6,7):
+      see declaration of 'Player'
+  
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(62,105): error C2065: 'endl': undeclared identifier
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(63,5): error C2653: 'Utility': is not a class or namespace name
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(63,14): error C3861: 'waitForEnter': identifier not found
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(64,5): error C2065: 'cout': undeclared identifier
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(64,65): error C2027: use of undefined type 'Player'
+      D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.hpp(6,7):
+      see declaration of 'Player'
+  
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(64,113): error C2065: 'endl': undeclared identifier
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(65,5): error C2653: 'Utility': is not a class or namespace name
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(65,14): error C3861: 'waitForEnter': identifier not found
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(66,5): error C2065: 'cout': undeclared identifier
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(66,177): error C2065: 'endl': undeclared identifier
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(67,5): error C2653: 'Utility': is not a class or namespace name
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(67,14): error C3861: 'waitForEnter': identifier not found
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(68,5): error C2065: 'cout': undeclared identifier
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(68,185): error C2065: 'endl': undeclared identifier
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(69,5): error C2653: 'Utility': is not a class or namespace name
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(69,14): error C3861: 'waitForEnter': identifier not found
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(70,5): error C2065: 'cout': undeclared identifier
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(70,13): error C2027: use of undefined type 'Player'
+      D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.hpp(6,7):
+      see declaration of 'Player'
+  
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(70,76): error C2065: 'endl': undeclared identifier
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(71,5): error C2653: 'Utility': is not a class or namespace name
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(71,14): error C3861: 'waitForEnter': identifier not found
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(72,5): error C2065: 'cout': undeclared identifier
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(72,224): error C2065: 'endl': undeclared identifier
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(73,5): error C2653: 'Utility': is not a class or namespace name
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(73,14): error C3861: 'waitForEnter': identifier not found
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(74,5): error C2065: 'cout': undeclared identifier
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(74,110): error C2065: 'endl': undeclared identifier
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(75,5): error C2653: 'Utility': is not a class or namespace name
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(75,14): error C3861: 'waitForEnter': identifier not found
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(76,5): error C2065: 'cout': undeclared identifier
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(76,21): error C2027: use of undefined type 'Player'
+      D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.hpp(6,7):
+      see declaration of 'Player'
+  
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(76,79): error C2065: 'endl': undeclared identifier
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(77,5): error C2653: 'Utility': is not a class or namespace name
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(77,14): error C3861: 'waitForEnter': identifier not found
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(78,5): error C2065: 'cout': undeclared identifier
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(78,86): error C2065: 'endl': undeclared identifier
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(79,5): error C2653: 'Utility': is not a class or namespace name
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(79,14): error C3861: 'waitForEnter': identifier not found
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(80,5): error C2065: 'cout': undeclared identifier
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(80,126): error C2065: 'endl': undeclared identifier
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(81,5): error C2653: 'Utility': is not a class or namespace name
+D:\Viresh\Reps\Pokemon\Pokemon\ProfessorOak.cpp(81,5): error C1003: error count exceeds 100; stopping compilation
+  Generating Code...

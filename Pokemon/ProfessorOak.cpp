@@ -1,8 +1,9 @@
 #include "ProfessorOak.hpp"
 #include "PokemonChoice.hpp"
-#include "Utility.hpp"
-#include <iostream>
+#include "PokemonType.hpp"
+#include <string>
 using namespace std;
+
 
 ProfessorOak::ProfessorOak(string p_name)
 {
@@ -10,7 +11,7 @@ ProfessorOak::ProfessorOak(string p_name)
 }
 
 //Function to greeting the player
-void Professor::greetPlayer(Player& player)
+void ProfessorOak::greetPlayer(Player& player)
 {
     cout << name << ": Hello there! Welcome to the world of Pokemon!" << endl;
     Utility::waitForEnter();
@@ -22,7 +23,7 @@ void Professor::greetPlayer(Player& player)
 
 
 //Function to ask the player to choose a pokemon
-void Professor::offerPokemonChoices(Player& player)
+void ProfessorOak::offerPokemonChoices(Player& player)
 {
     //Taking player name as input
     cout << name << ": First, tell me, what's your name?" << endl;
@@ -49,32 +50,32 @@ void Professor::offerPokemonChoices(Player& player)
 }
 
 // New method for the main quest conversation
-void Professor::explainMainQuest(Player& player)
+void ProfessorOak::explainMainQuest(Player& player)
 {
     Utility::clearConsole();
     cout << name << ": Oak-ay " << player.name << "!, I am about to explain you about your upcoming grand adventure." << endl;
     Utility::waitForEnter();
-    cout << name << ":  You see, becoming a PokÃ©mon Master is no easy feat. It takes courage, wisdom, and a bit of luck!" << endl;
+    cout << name << ":  You see, becoming a Pokémon Master is no easy feat. It takes courage, wisdom, and a bit of luck!" << endl;
     Utility::waitForEnter();
-    cout << name << ":  Your mission, should you choose to accept itâ€”and trust me, you really donâ€™t have a choiceâ€”is to collect all the PokÃ©mon Badges and conquer the PokÃ©mon League." << endl;
+    cout << name << ":  Your mission, should you choose to accept it—and trust me, you really don’t have a choice—is to collect all the Pokémon Badges and conquer the Pokémon League." << endl;
     Utility::waitForEnter();
-    cout << player.name << ": Wait... that sounds a lot like every other PokÃ©mon game out there..." << endl;
+    cout << player.name << ": Wait... that sounds a lot like every other Pokémon game out there..." << endl;
     Utility::waitForEnter();
     cout << name << ":  Shhh! Don't break the fourth wall, " << player.name << "! This is serious business!" << endl;
     Utility::waitForEnter();
-    cout << "\n" << name << ":  To achieve this, youâ€™ll need to battle wild PokÃ©mon, challenge gym leaders, and of course, keep your PokÃ©mon healthy at the PokeCenter." << endl;
+    cout << "\n" << name << ":  To achieve this, you’ll need to battle wild Pokémon, challenge gym leaders, and of course, keep your Pokémon healthy at the PokeCenter." << endl;
     Utility::waitForEnter();
-    cout << name << ":  Along the way, you'll capture new PokÃ©mon to strengthen your team. Just rememberâ€”thereâ€™s a limit to how many PokÃ©mon you can carry, so choose wisely!" << endl;
+    cout << name << ":  Along the way, you'll capture new Pokémon to strengthen your team. Just remember—there’s a limit to how many Pokémon you can carry, so choose wisely!" << endl;
     Utility::waitForEnter();
     cout << player.name << ": Sounds like a walk in the park... right?" << endl;
     Utility::waitForEnter();
-    cout << name << ":  Hah! Thatâ€™s what they all say! But beware, young Trainer, the path to victory is fraught with challenges. And if you lose a battle... well, letâ€™s just say you'll be starting from square one." << endl;
+    cout << name << ":  Hah! That’s what they all say! But beware, young Trainer, the path to victory is fraught with challenges. And if you lose a battle... well, let’s just say you'll be starting from square one." << endl;
     Utility::waitForEnter();
-    cout << "\n" << name << ":  So, what do you say? Are you ready to become the next PokÃ©mon Champion?" << endl;
+    cout << "\n" << name << ":  So, what do you say? Are you ready to become the next Pokémon Champion?" << endl;
     Utility::waitForEnter();
-    cout << "\n" << player.name << ": Ready as Iâ€™ll ever be, Professor!" << endl;
+    cout << "\n" << player.name << ": Ready as I’ll ever be, Professor!" << endl;
     Utility::waitForEnter();
-    cout << "\n" << name << ":  Thatâ€™s the spirit! Now, your journey begins..." << endl;
+    cout << "\n" << name << ":  That’s the spirit! Now, your journey begins..." << endl;
     Utility::waitForEnter();
     cout << name << ":  But first... let's just pretend I didn't forget to set up the actual game loop... Ahem, onwards!" << endl;
     Utility::waitForEnter();
