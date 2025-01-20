@@ -1,6 +1,5 @@
 #include "ProfessorOak.hpp"
 #include "PokemonChoice.hpp"
-#include "Player.hpp"
 #include "Utility.hpp"
 #include <iostream>
 using namespace std;
