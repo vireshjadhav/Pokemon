@@ -1,5 +1,4 @@
 #include "Pokemon.hpp"
-#include "Utility.hpp
 #include <iostream>
 using namespace std;
 
@@ -20,7 +19,7 @@ Pokemon::Pokemon(string p_name, PokemonType p_type, int p_health)
 }
 
 //Copy constructor
-Pokemon::Pokemon(const Pokemon& other)
+Pokemon::Pokemon(const Pokemon &other)
 {
   name = other.name;
   type = other.type;
