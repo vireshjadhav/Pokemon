@@ -1,6 +1,7 @@
 #include <string>
 using namespace std;
 
+class Player;
 enum class PokemonType;
 class ProfessorOak
 {
