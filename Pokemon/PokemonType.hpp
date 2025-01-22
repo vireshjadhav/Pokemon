@@ -6,5 +6,8 @@ enum class PokemonType
 	WATER, 
 	EARTH, 
 	GRASS, 
+	BUG,
+	ROCK,
+	POISON,
 	NORMAL //Default
 };

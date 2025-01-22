@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "F:\\CPP Projects\\Pokemon\\Pokemon\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|F:\\CPP Projects\\Pokemon\\Pokemon\\PokemonType.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:PokemonType.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|F:\\CPP Projects\\Pokemon\\Pokemon\\ProfessorOak.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:ProfessorOak.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|F:\\CPP Projects\\Pokemon\\Pokemon\\ProfessorOak.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:ProfessorOak.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|F:\\CPP Projects\\Pokemon\\Pokemon\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|F:\\CPP Projects\\Pokemon\\Pokemon\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -17,14 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|F:\\CPP Projects\\Pokemon\\Pokemon\\Pokemon.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:Pokemon.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|F:\\CPP Projects\\Pokemon\\Pokemon\\ProfessorOak.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:ProfessorOak.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|F:\\CPP Projects\\Pokemon\\Pokemon\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,6 +51,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PokemonType.hpp",
+              "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\PokemonType.hpp",
+              "RelativeDocumentMoniker": "PokemonType.hpp",
+              "ToolTip": "F:\\CPP Projects\\Pokemon\\Pokemon\\PokemonType.hpp",
+              "RelativeToolTip": "PokemonType.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-22T21:44:07.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProfessorOak.cpp",
+              "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\ProfessorOak.cpp",
+              "RelativeDocumentMoniker": "ProfessorOak.cpp",
+              "ToolTip": "F:\\CPP Projects\\Pokemon\\Pokemon\\ProfessorOak.cpp",
+              "RelativeToolTip": "ProfessorOak.cpp",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-22T20:14:18.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Player.cpp",
               "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\Player.cpp",
               "RelativeDocumentMoniker": "Player.cpp",
@@ -55,20 +89,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Pokemon.cpp",
-              "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\Pokemon.cpp",
-              "RelativeDocumentMoniker": "Pokemon.cpp",
-              "ToolTip": "F:\\CPP Projects\\Pokemon\\Pokemon\\Pokemon.cpp",
-              "RelativeToolTip": "Pokemon.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-22T18:45:42.948Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "ProfessorOak.hpp",
               "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\ProfessorOak.hpp",
               "RelativeDocumentMoniker": "ProfessorOak.hpp",
@@ -81,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Pokemon.hpp",
               "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\Pokemon.hpp",
               "RelativeDocumentMoniker": "Pokemon.hpp",
@@ -89,12 +110,11 @@
               "RelativeToolTip": "Pokemon.hpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-22T18:45:02.883Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-22T18:45:02.883Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Player.hpp",
               "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\Player.hpp",
               "RelativeDocumentMoniker": "Player.hpp",
@@ -102,21 +122,32 @@
               "RelativeToolTip": "Player.hpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-22T18:44:59.392Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-22T18:44:59.392Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "main.cpp",
               "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "F:\\CPP Projects\\Pokemon\\Pokemon\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-01-20T21:35:31.939Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Pokemon.cpp",
+              "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\Pokemon.cpp",
+              "RelativeDocumentMoniker": "Pokemon.cpp",
+              "ToolTip": "F:\\CPP Projects\\Pokemon\\Pokemon\\Pokemon.cpp",
+              "RelativeToolTip": "Pokemon.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-22T18:45:42.948Z"
             }
           ]
         }
