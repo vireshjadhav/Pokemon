@@ -1,6 +1,7 @@
 #include "Player.hpp"
 #include "PokemonChoice.hpp"
 #include "PokemonType.hpp"
+#include "Game.hpp"
 #include "Utility.hpp"
 #include "ProfessorOak.hpp"
 #include <iostream>
@@ -193,73 +194,73 @@ using namespace std;
 
 
 //Function to handle the main game loop
-void gameLoop(Player &player)
-{
-    int choice;
-    bool keepPlaying = true;
-
-    while (keepPlaying)
-    {
-        //Clearing console before showing options
-        Utility::clearConsole();
-
-
-        //Display options to the player
-        cout << "What would you like to do next - " << player.name << "?" << endl;
-
-        cout << "1. Battle Wild Pokémon" << endl;
-
-        cout << "2. Visit PokeCenter" << endl;
-
-        cout << "3. Challenge Gyms" << endl;
-
-        cout << "4. Enter Pokémon League" << endl;
-
-        cout << "5. Quit" << endl;
-
-        cout << "Enter your choice: ";
-
-        cin >> choice;
-
-        //Clear the newline character left in the buffer after cin
-        Utility::clearInputBuffer();
-
-        switch (choice)
-        {
-        case 1:
-            cout << "You look around... but all the wild Pokemon are on vacation. Maybe try again later?" << endl;
-            break;
-        case 2:
-            cout << "You head to the PokeCenter, but Nurse Joy is out on a coffee break. Guess your Pokemon will have to tough it out for now!" << endl;
-            break;
-        case 3:
-            cout << "You march up to the Gym, but it's closed for renovations. Seems like even Gym Leaders need a break!" << endl;
-            break;
-        case 4:
-            cout << "You boldly step towards the Pokemon League... but the gatekeeper laughs and says, 'Maybe next time, champ!" << endl;
-            break;
-        case 5:
-            cout << "You try to quit, but Professor Oak's voice echoes: 'There's no quitting in Pokemon training!" << endl;
-            cout << "Are you sure you want to quit? (Y / n)";
-
-            char quitChoice;
-            cin >> quitChoice;
-            if (quitChoice == 'y' || quitChoice == 'Y')
-            {
-                keepPlaying = false;
-            }
-            break;
-        default:
-            cout << "That's not valid choice. Try again";
-            break;
-        }
-
-        Utility::waitForEnter();
-
-    }
-
-    cout << "Goodbye, " << player.name << "! Thanks for playing!" << endl;
-}
+//void gameLoop(Player &player)
+//{
+//    int choice;
+//    bool keepPlaying = true;
+//
+//    while (keepPlaying)
+//    {
+//        //Clearing console before showing options
+//        Utility::clearConsole();
+//
+//
+//        //Display options to the player
+//        cout << "What would you like to do next - " << player.name << "?" << endl;
+//
+//        cout << "1. Battle Wild Pokémon" << endl;
+//
+//        cout << "2. Visit PokeCenter" << endl;
+//
+//        cout << "3. Challenge Gyms" << endl;
+//
+//        cout << "4. Enter Pokémon League" << endl;
+//
+//        cout << "5. Quit" << endl;
+//
+//        cout << "Enter your choice: ";
+//
+//        cin >> choice;
+//
+//        //Clear the newline character left in the buffer after cin
+//        Utility::clearInputBuffer();
+//
+//        switch (choice)
+//        {
+//        case 1:
+//            cout << "You look around... but all the wild Pokemon are on vacation. Maybe try again later?" << endl;
+//            break;
+//        case 2:
+//            cout << "You head to the PokeCenter, but Nurse Joy is out on a coffee break. Guess your Pokemon will have to tough it out for now!" << endl;
+//            break;
+//        case 3:
+//            cout << "You march up to the Gym, but it's closed for renovations. Seems like even Gym Leaders need a break!" << endl;
+//            break;
+//        case 4:
+//            cout << "You boldly step towards the Pokemon League... but the gatekeeper laughs and says, 'Maybe next time, champ!" << endl;
+//            break;
+//        case 5:
+//            cout << "You try to quit, but Professor Oak's voice echoes: 'There's no quitting in Pokemon training!" << endl;
+//            cout << "Are you sure you want to quit? (Y / n)";
+//
+//            char quitChoice;
+//            cin >> quitChoice;
+//            if (quitChoice == 'y' || quitChoice == 'Y')
+//            {
+//                keepPlaying = false;
+//            }
+//            break;
+//        default:
+//            cout << "That's not valid choice. Try again";
+//            break;
+//        }
+//
+//        Utility::waitForEnter();
+//
+//    }
+//
+//    cout << "Goodbye, " << player.name << "! Thanks for playing!" << endl;
+//}
 
 int main() {
     //Create pokemon and player objects for the game
