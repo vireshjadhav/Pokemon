@@ -6,5 +6,5 @@ enum class PokemonType
 	WATER, 
 	EARTH, 
 	GRASS, 
-	NORMAL/*Default choice*/ 
+	NORMAL //Default
 };

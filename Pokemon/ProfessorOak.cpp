@@ -1,4 +1,5 @@
 #include "ProfessorOak.hpp"
+#include "Player.hpp"
 #include "PokemonChoice.hpp"
 #include "Utility.hpp"
 #include <iostream>
@@ -10,7 +11,7 @@ ProfessorOak::ProfessorOak(string p_name)
 }
 
 //Function to greeting the player
-void Professor::greetPlayer(Player& player)
+void ProfessorOak::greetPlayer(Player& player)
 {
     cout << name << ": Hello there! Welcome to the world of Pokemon!" << endl;
     Utility::waitForEnter();
@@ -22,7 +23,7 @@ void Professor::greetPlayer(Player& player)
 
 
 //Function to ask the player to choose a pokemon
-void Professor::offerPokemonChoices(Player& player)
+void ProfessorOak::offerPokemonChoices(Player& player)
 {
     //Taking player name as input
     cout << name << ": First, tell me, what's your name?" << endl;
@@ -49,7 +50,7 @@ void Professor::offerPokemonChoices(Player& player)
 }
 
 // New method for the main quest conversation
-void Professor::explainMainQuest(Player& player)
+void ProfessorOak::explainMainQuest(Player& player)
 {
     Utility::clearConsole();
     cout << name << ": Oak-ay " << player.name << "!, I am about to explain you about your upcoming grand adventure." << endl;

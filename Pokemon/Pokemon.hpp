@@ -2,6 +2,7 @@
 using namespace std;
 
 enum class PokemonType;
+
 class Pokemon
 {
 public:
@@ -11,7 +12,7 @@ public:
     int health;
 
 Pokemon(); //default constructor 
-Pokemon(string p_name, Pokemon P_type, int p_heath); //parameterized constructor
+Pokemon(string p_name, PokemonType P_type, int p_heath); //parameterized constructor
 Pokemon(const Pokemon &other); //copy constructor
 
 ~Pokemon(); // destructor
