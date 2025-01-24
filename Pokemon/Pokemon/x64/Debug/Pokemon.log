@@ -1,44 +1,31 @@
 ﻿  Game.cpp
-F:\CPP Projects\Pokemon\Pokemon\Grass.hpp(9,9): error C2065: 'Pokemon': undeclared identifier
+D:\Viresh\Reps\Pokemon\Pokemon\Grass.hpp(9,9): error C2065: 'Pokemon': undeclared identifier
   (compiling source file 'Game.cpp')
   
-F:\CPP Projects\Pokemon\Pokemon\Grass.hpp(9,2): error C2923: 'std::vector': 'Pokemon' is not a valid template type argument for parameter '_Ty'
+D:\Viresh\Reps\Pokemon\Pokemon\Grass.hpp(9,2): error C2923: 'std::vector': 'Pokemon' is not a valid template type argument for parameter '_Ty'
   (compiling source file 'Game.cpp')
-      F:\CPP Projects\Pokemon\Pokemon\Grass.hpp(9,9):
+      D:\Viresh\Reps\Pokemon\Pokemon\Grass.hpp(9,9):
       see declaration of 'Pokemon'
   
-F:\CPP Projects\Pokemon\Pokemon\Grass.hpp(9,2): error C2976: 'std::vector': too few template arguments
+D:\Viresh\Reps\Pokemon\Pokemon\Grass.hpp(9,2): error C2976: 'std::vector': too few template arguments
   (compiling source file 'Game.cpp')
       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
       see declaration of 'std::vector'
   
-F:\CPP Projects\Pokemon\Pokemon\Game.cpp(17,29): error C2027: use of undefined type 'PokemonType'
-      F:\CPP Projects\Pokemon\Pokemon\Pokemon.hpp(4,12):
-      see declaration of 'PokemonType'
-  
-F:\CPP Projects\Pokemon\Pokemon\Game.cpp(17,29): error C2065: 'POISON': undeclared identifier
-F:\CPP Projects\Pokemon\Pokemon\Game.cpp(17,68): error C2027: use of undefined type 'PokemonType'
-      F:\CPP Projects\Pokemon\Pokemon\Pokemon.hpp(4,12):
-      see declaration of 'PokemonType'
-  
-F:\CPP Projects\Pokemon\Pokemon\Game.cpp(17,68): error C2065: 'BUG': undeclared identifier
-F:\CPP Projects\Pokemon\Pokemon\Game.cpp(17,102): error C2027: use of undefined type 'PokemonType'
-      F:\CPP Projects\Pokemon\Pokemon\Pokemon.hpp(4,12):
-      see declaration of 'PokemonType'
-  
-F:\CPP Projects\Pokemon\Pokemon\Game.cpp(17,102): error C2065: 'NORMAL': undeclared identifier
-F:\CPP Projects\Pokemon\Pokemon\Grass.hpp(11,1): error C2512: 'std::vector': no appropriate default constructor available
+D:\Viresh\Reps\Pokemon\Pokemon\WildEncounterManager.hpp(4,10): error C1083: Cannot open include file: 'Grass.hpp': No such file or directory
   (compiling source file 'Game.cpp')
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
-      see declaration of 'std::vector'
-      F:\CPP Projects\Pokemon\Pokemon\Grass.hpp(11,1):
-      This diagnostic occurred in the compiler generated function 'Grass::Grass(void)'
-      F:\CPP Projects\Pokemon\Pokemon\Game.cpp(14,19):
-      see reference to function 'Grass::Grass(void)'
   
   main.cpp
-F:\CPP Projects\Pokemon\Pokemon\main.cpp(281,5): error C3861: 'gameLoop': identifier not found
-  Player.cpp
-  Pokemon.cpp
-  ProfessorOak.cpp
+D:\Viresh\Reps\Pokemon\Pokemon\Grass.hpp(6,8): error C2011: 'Grass': 'struct' type redefinition
+  (compiling source file 'main.cpp')
+      D:\Viresh\Reps\Pokemon\Pokemon\Grass.hpp(6,8):
+      see declaration of 'Grass'
+  
+D:\Viresh\Reps\Pokemon\Pokemon\WildEncounterManager.hpp(4,10): error C1083: Cannot open include file: 'Grass.hpp': No such file or directory
+  (compiling source file 'main.cpp')
+  
+  WildEncounterManager.cpp
+D:\Viresh\Reps\Pokemon\Pokemon\WildEncounterManager.hpp(4,10): error C1083: Cannot open include file: 'Grass.hpp': No such file or directory
+  (compiling source file 'WildEncounterManager.cpp')
+  
   Generating Code...
