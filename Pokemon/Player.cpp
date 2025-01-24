@@ -1,28 +1,27 @@
 //Player.cpp
-
 #include "Player.hpp"
-#include "Pokemon.hpp"
-#include "PokemonType.hpp"
 #include "PokemonChoice.hpp"
+#include "PokemonType.hpp"
 #include "Utility.hpp"
 #include <iostream>
 using namespace std;
 
 //Default constructor
-Player::Player() {
+Player::Player() 
+{
     name = "Trainer";
     chosenPokemon = Pokemon();//Using the default Pokemon constructor
 }
-
-
+  
 //Parameterized constructor
-Player::Player(string p_name, Pokemon p_chosenPokemon) {
+Player::Player(string p_name, Pokemon p_chosenPokemon) 
+{
     name = p_name;
     chosenPokemon = p_chosenPokemon;
 }
 
 
-//Function to choose a pokemon
+    //Function to choose a pokemon
 void Player::choosePokemon(int choice)
 {
     //Store the choice integer to respective pokemon
@@ -41,5 +40,6 @@ void Player::choosePokemon(int choice)
         chosenPokemon = Pokemon("Pikachu", PokemonType::ELECTRIC, 100);
     }
     cout << "Player " << name << " chose " << chosenPokemon.name << "!" << endl;
+
     Utility::waitForEnter();
-}
+    }

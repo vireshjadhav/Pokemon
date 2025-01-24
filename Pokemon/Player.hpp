@@ -1,19 +1,17 @@
-//Player.hpp
 #include <string>
+#include "Pokemon.hpp"
 using namespace std;
 
-class Pokemon;
+enum class PokemonType;
 
-class Player
+class Player 
 {
 public:
-	//Define variables 
-	string name;
-	Pokemon chosenPokemon;
+    string name;
+    Pokemon chosenPokemon;
 
-	//Default constructor
-	Player();
-	Player(string p_name, Pokemon p_chosenPokemon); //Parameterized constructor
+Player(); //default constructor
+Player(string p_name, Pokemon p_chosenPokemon); //parameterized constructor
 
-	void choosePokemon(int choice); //Function to choose Pokemon
+void choosePokemon(int choice); // method to choose pokemon
 };

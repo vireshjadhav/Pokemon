@@ -1,14 +1,13 @@
-//ProfessorOak.hpp
-#include "PokemonType.hpp"
 #include <string>
 using namespace std;
 
 class Player;
+enum class PokemonType;
 
 class ProfessorOak
 {
 public:
-	string name;
+  string name;
 
 ProfessorOak(string p_name);
 

@@ -1,4 +1,3 @@
-//Pokemon.hpp
 #include <string>
 using namespace std;
 
@@ -7,22 +6,16 @@ enum class PokemonType;
 class Pokemon
 {
 public:
-	string name;
-	PokemonType type;
-	int health;
+    //Atributes
+    string name;
+    PokemonType type;
+    int health;
 
-	//Default contructor
-	Pokemon();
+Pokemon(); //default constructor 
+Pokemon(string p_name, PokemonType P_type, int p_heath); //parameterized constructor
+Pokemon(const Pokemon &other); //copy constructor
 
-	//Parameterized constructor
-	Pokemon(string p_name, PokemonType p_Type, int p_health);
+~Pokemon(); // destructor
 
-	//Copy contructor
-	Pokemon(const Pokemon &other);
-
-	//Destroctor
-	~Pokemon();
-
-	//Function for attack
-	void attack();
+void attack(); //function to attack
 };

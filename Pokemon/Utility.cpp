@@ -12,7 +12,6 @@ void Utility::clearConsole()
 #else
     (void)system("clear");
 #endif
-
 }
 
 //Function to wait for user to press Enter
@@ -21,7 +20,7 @@ void Utility::waitForEnter()
     cin.get();
 }
 
-//Clear the newline character left in the buffer after cin
+//New helper Function
 void Utility::clearInputBuffer()
 {
     cin.ignore(numeric_limits<streamsize>::max(), '\n');

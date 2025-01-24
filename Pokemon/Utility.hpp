@@ -1,5 +1,6 @@
 //Utility.hpp
-class Utility
+
+class Utility 
 {
 public:
 	static void clearConsole();
