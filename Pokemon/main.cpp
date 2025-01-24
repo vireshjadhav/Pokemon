@@ -277,8 +277,9 @@ int main() {
     //Explain the main quest
     professor.explainMainQuest(player);
 
+    Game game;
     //placeholder for where the game loop will start
-    gameLoop(player);
+    game.gameLoop(player);
 
     return 0;
 }
