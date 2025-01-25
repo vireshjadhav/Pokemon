@@ -4,13 +4,14 @@
 #include "PokemonType.hpp"
 #include "WildEncounterManager.hpp"
 #include "Utility.hpp" 
+//#include "Grass.hpp"
 #include <iostream>
 using namespace std;
 
 
 Game::Game()
 {
-    forestGrass = { "Forest",
+     forestGrass = { "Forest",
         {("Zubat", PokemonType::POISON, 30),
         ("Caterpie", PokemonType::BUG, 35),
         ("Pidgey", PokemonType::NORMAL, 40)},
@@ -54,10 +55,12 @@ void Game::gameLoop(Player &player)
         switch (choice)
         {
         case 1:
+        {
             WildEncounterManager encounterManager;
             Pokemon encounteredPokemon = encounterManager.getRandomPokemonFromGrass(forestGrass);
-            cout << "A Wild" << encounteredPokemon.name << " appeared!" << endl;
+            cout << "A Wild " << encounteredPokemon.name << " appeared!" << endl;
             break;
+        }
         case 2:
             cout << "You head to the PokeCenter, but Nurse Joy is out on a coffee break. Guess your Pokemon will have to tough it out for now!" << endl;
             break;
