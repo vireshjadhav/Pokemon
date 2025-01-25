@@ -9,5 +9,5 @@ private:
 	Grass forestGrass;
 public:
 	Game();
-	void gameLoop(Player& player);
+	void gameLoop(Player &player);
 };

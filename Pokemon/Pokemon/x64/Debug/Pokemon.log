@@ -1,31 +1,5 @@
 ﻿  Game.cpp
-D:\Viresh\Reps\Pokemon\Pokemon\Grass.hpp(9,9): error C2065: 'Pokemon': undeclared identifier
-  (compiling source file 'Game.cpp')
-  
-D:\Viresh\Reps\Pokemon\Pokemon\Grass.hpp(9,2): error C2923: 'std::vector': 'Pokemon' is not a valid template type argument for parameter '_Ty'
-  (compiling source file 'Game.cpp')
-      D:\Viresh\Reps\Pokemon\Pokemon\Grass.hpp(9,9):
-      see declaration of 'Pokemon'
-  
-D:\Viresh\Reps\Pokemon\Pokemon\Grass.hpp(9,2): error C2976: 'std::vector': too few template arguments
-  (compiling source file 'Game.cpp')
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
-      see declaration of 'std::vector'
-  
-D:\Viresh\Reps\Pokemon\Pokemon\WildEncounterManager.hpp(4,10): error C1083: Cannot open include file: 'Grass.hpp': No such file or directory
-  (compiling source file 'Game.cpp')
-  
-  main.cpp
-D:\Viresh\Reps\Pokemon\Pokemon\Grass.hpp(6,8): error C2011: 'Grass': 'struct' type redefinition
-  (compiling source file 'main.cpp')
-      D:\Viresh\Reps\Pokemon\Pokemon\Grass.hpp(6,8):
-      see declaration of 'Grass'
-  
-D:\Viresh\Reps\Pokemon\Pokemon\WildEncounterManager.hpp(4,10): error C1083: Cannot open include file: 'Grass.hpp': No such file or directory
-  (compiling source file 'main.cpp')
-  
   WildEncounterManager.cpp
-D:\Viresh\Reps\Pokemon\Pokemon\WildEncounterManager.hpp(4,10): error C1083: Cannot open include file: 'Grass.hpp': No such file or directory
-  (compiling source file 'WildEncounterManager.cpp')
-  
+F:\CPP Projects\Pokemon\Pokemon\WildEncounterManager.cpp(9,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
   Generating Code...
+  Pokemon.vcxproj -> F:\CPP Projects\Pokemon\Pokemon\x64\Debug\Pokemon.exe

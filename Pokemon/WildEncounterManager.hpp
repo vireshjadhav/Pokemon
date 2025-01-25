@@ -1,10 +1,13 @@
-//WildEncounterManager.h
+//WildEncounterManager.hpp
 
 #include <vector>
-#include <Grass.hpp>
+#include "Pokemon.hpp"
+#include "Grass.hpp"
+
 
 class WildEncounterManager
 {
 public:
-	WildPokemon getRandomPokemonFromGrass(const Grass& grass);
+	WildEncounterManager();
+	Pokemon getRandomPokemonFromGrass(const Grass &grass);
 };
