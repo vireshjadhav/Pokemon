@@ -12,20 +12,96 @@ D:\Viresh\Reps\Pokemon\Pokemon\Grass.hpp(9,2): error C2976: 'std::vector': too f
       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
       see declaration of 'std::vector'
   
-D:\Viresh\Reps\Pokemon\Pokemon\WildEncounterManager.hpp(4,10): error C1083: Cannot open include file: 'Grass.hpp': No such file or directory
-  (compiling source file 'Game.cpp')
-  
-  main.cpp
 D:\Viresh\Reps\Pokemon\Pokemon\Grass.hpp(6,8): error C2011: 'Grass': 'struct' type redefinition
-  (compiling source file 'main.cpp')
+  (compiling source file 'Game.cpp')
       D:\Viresh\Reps\Pokemon\Pokemon\Grass.hpp(6,8):
       see declaration of 'Grass'
   
-D:\Viresh\Reps\Pokemon\Pokemon\WildEncounterManager.hpp(4,10): error C1083: Cannot open include file: 'Grass.hpp': No such file or directory
-  (compiling source file 'main.cpp')
+D:\Viresh\Reps\Pokemon\Pokemon\WildEncounterManager.hpp(9,14): error C3646: 'getRandomPokemonFromGrass': unknown override specifier
+  (compiling source file 'Game.cpp')
   
+D:\Viresh\Reps\Pokemon\Pokemon\WildEncounterManager.hpp(9,39): error C2059: syntax error: '('
+  (compiling source file 'Game.cpp')
+  
+D:\Viresh\Reps\Pokemon\Pokemon\WildEncounterManager.hpp(9,59): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'Game.cpp')
+  
+D:\Viresh\Reps\Pokemon\Pokemon\Grass.hpp(11,1): error C2512: 'std::vector': no appropriate default constructor available
+  (compiling source file 'Game.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+      see declaration of 'std::vector'
+      D:\Viresh\Reps\Pokemon\Pokemon\Grass.hpp(11,1):
+      This diagnostic occurred in the compiler generated function 'Grass::Grass(void)'
+      D:\Viresh\Reps\Pokemon\Pokemon\Game.cpp(13,1):
+      see reference to function 'Grass::Grass(void)'
+  
+D:\Viresh\Reps\Pokemon\Pokemon\Game.cpp(13,1): error C2027: use of undefined type 'Grass'
+      D:\Viresh\Reps\Pokemon\Pokemon\Grass.hpp(6,8):
+      see declaration of 'Grass'
+  
+D:\Viresh\Reps\Pokemon\Pokemon\Game.cpp(14,6): error C2679: binary '=': no operator found which takes a right-hand operand of type 'initializer list' (or there is no acceptable conversion)
+      D:\Viresh\Reps\Pokemon\Pokemon\Grass.hpp(11,1):
+      could be 'Grass &Grass::operator =(Grass &&)'
+          D:\Viresh\Reps\Pokemon\Pokemon\Game.cpp(14,6):
+          'Grass &Grass::operator =(Grass &&)': cannot convert argument 2 from 'initializer list' to 'Grass &&'
+              D:\Viresh\Reps\Pokemon\Pokemon\Game.cpp(14,20):
+              Reason: cannot convert from 'initializer list' to 'Grass'
+              D:\Viresh\Reps\Pokemon\Pokemon\Game.cpp(14,20):
+              use of undefined type 'Grass'
+              D:\Viresh\Reps\Pokemon\Pokemon\Grass.hpp(6,8):
+              see declaration of 'Grass'
+      D:\Viresh\Reps\Pokemon\Pokemon\Grass.hpp(11,1):
+      or       'Grass &Grass::operator =(const Grass &)'
+          D:\Viresh\Reps\Pokemon\Pokemon\Game.cpp(14,6):
+          'Grass &Grass::operator =(const Grass &)': cannot convert argument 2 from 'initializer list' to 'const Grass &'
+              D:\Viresh\Reps\Pokemon\Pokemon\Game.cpp(14,20):
+              Reason: cannot convert from 'initializer list' to 'const Grass'
+              D:\Viresh\Reps\Pokemon\Pokemon\Game.cpp(14,20):
+              use of undefined type 'Grass'
+              D:\Viresh\Reps\Pokemon\Pokemon\Grass.hpp(6,8):
+              see declaration of 'Grass'
+      D:\Viresh\Reps\Pokemon\Pokemon\Game.cpp(14,6):
+      while trying to match the argument list '(Grass, initializer list)'
+  
+D:\Viresh\Reps\Pokemon\Pokemon\Game.cpp(60,59): error C2039: 'getRandomPokemonFromGrass': is not a member of 'WildEncounterManager'
+      D:\Viresh\Reps\Pokemon\Pokemon\WildEncounterManager.hpp(6,7):
+      see declaration of 'WildEncounterManager'
+  
+  main.cpp
   WildEncounterManager.cpp
-D:\Viresh\Reps\Pokemon\Pokemon\WildEncounterManager.hpp(4,10): error C1083: Cannot open include file: 'Grass.hpp': No such file or directory
+D:\Viresh\Reps\Pokemon\Pokemon\Grass.hpp(9,9): error C2065: 'Pokemon': undeclared identifier
   (compiling source file 'WildEncounterManager.cpp')
   
+D:\Viresh\Reps\Pokemon\Pokemon\Grass.hpp(9,2): error C2923: 'std::vector': 'Pokemon' is not a valid template type argument for parameter '_Ty'
+  (compiling source file 'WildEncounterManager.cpp')
+      D:\Viresh\Reps\Pokemon\Pokemon\Grass.hpp(9,9):
+      see declaration of 'Pokemon'
+  
+D:\Viresh\Reps\Pokemon\Pokemon\Grass.hpp(9,2): error C2976: 'std::vector': too few template arguments
+  (compiling source file 'WildEncounterManager.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+      see declaration of 'std::vector'
+  
+D:\Viresh\Reps\Pokemon\Pokemon\WildEncounterManager.hpp(9,14): error C3646: 'getRandomPokemonFromGrass': unknown override specifier
+  (compiling source file 'WildEncounterManager.cpp')
+  
+D:\Viresh\Reps\Pokemon\Pokemon\WildEncounterManager.hpp(9,39): error C2059: syntax error: '('
+  (compiling source file 'WildEncounterManager.cpp')
+  
+D:\Viresh\Reps\Pokemon\Pokemon\WildEncounterManager.hpp(9,59): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'WildEncounterManager.cpp')
+  
+D:\Viresh\Reps\Pokemon\Pokemon\WildEncounterManager.cpp(7,23): error C2600: 'WildEncounterManager::WildEncounterManager': cannot define a compiler-generated special member function (must be declared in the class first)
+D:\Viresh\Reps\Pokemon\Pokemon\WildEncounterManager.cpp(8,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+      D:\Viresh\Reps\Pokemon\Pokemon\WildEncounterManager.cpp(7,23):
+      This diagnostic occurred in the compiler generated function 'WildEncounterManager::WildEncounterManager(void)'
+  
+D:\Viresh\Reps\Pokemon\Pokemon\WildEncounterManager.cpp(11,35): error C2039: 'getRandomPokemonFromGrass': is not a member of 'WildEncounterManager'
+      D:\Viresh\Reps\Pokemon\Pokemon\WildEncounterManager.hpp(6,7):
+      see declaration of 'WildEncounterManager'
+  
+D:\Viresh\Reps\Pokemon\Pokemon\WildEncounterManager.cpp(11,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\Viresh\Reps\Pokemon\Pokemon\WildEncounterManager.cpp(11,35): error C2146: syntax error: missing ';' before identifier 'getRandomPokemonFromGrass'
+D:\Viresh\Reps\Pokemon\Pokemon\WildEncounterManager.cpp(12,1): error C2143: syntax error: missing ';' before '{'
+D:\Viresh\Reps\Pokemon\Pokemon\WildEncounterManager.cpp(12,1): error C2447: '{': missing function header (old-style formal list?)
   Generating Code...
