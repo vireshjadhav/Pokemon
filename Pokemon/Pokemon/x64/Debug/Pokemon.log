@@ -1,5 +1,6 @@
 ﻿  BattleManager.cpp
   Game.cpp
+F:\CPP Projects\Pokemon\Pokemon\Game.cpp(27,19): warning C4101: 'battleManager': unreferenced local variable
   main.cpp
   Player.cpp
   Pokemon.cpp

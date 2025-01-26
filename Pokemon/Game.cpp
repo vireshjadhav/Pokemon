@@ -3,6 +3,7 @@
 #include "Player.hpp"
 #include "PokemonType.hpp"
 #include "WildEncounterManager.hpp"
+#include "BattleManager.hpp"
 #include "Utility.hpp" 
 #include "grass.hpp"
 #include <iostream>
@@ -23,6 +24,7 @@ Game::Game()
 
 void Game::gameLoop(Player &player)
 {
+    BattleManager battleManager;
     int choice;
     bool keepPlaying = true;
 
