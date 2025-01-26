@@ -264,7 +264,7 @@ using namespace std;
 
 int main() {
     //Create pokemon and player objects for the game
-    Pokemon charmander("Charmander", PokemonType::FIRE, 100);
+    Pokemon charmander("Charmander", PokemonType::FIRE, 100, 100, 20);
 
     //countinue with the main flow of the game
     ProfessorOak professor("Professor Oak");

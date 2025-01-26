@@ -12,11 +12,13 @@ Pokemon::Pokemon()
 }
 
 //Parameterized constructor
-Pokemon::Pokemon(string p_name, PokemonType p_type, int p_health)
+Pokemon::Pokemon(string p_name, PokemonType p_type, int p_health, int p_maxHealth, int p_attackPower)
 {
 	name = p_name;
 	type = p_type;
 	health = p_health;
+	maxHealth = p_maxHealth;
+	attackPower = p_attackPower;
 }
 
 //Copy constructor
@@ -25,6 +27,8 @@ Pokemon::Pokemon(const Pokemon &other)
   name = other.name;
   type = other.type;
   health = other.health;
+  maxHealth = other.maxHealth;
+  attackPower = other.attackPower;
 }
 
 
@@ -37,9 +41,9 @@ Pokemon::~Pokemon()
 // Function to demonstrate attack
 void Pokemon::attack(Pokemon& target) 
 {
-	int damage = 10;
+	int damage = attackPower; //Use attack Power for damage calculation
 	cout << name << " attacks " << target.name << " for " << damage << " damage!" << endl;
-	target.takeDamage(damage);  
+	target.takeDamage(attackPower);  
 }
 
 void Pokemon::takeDamage(int damage)
@@ -52,4 +56,9 @@ void Pokemon::takeDamage(int damage)
 bool Pokemon::isFainted() const
 {
 	return health <= 0; // Retun true if HP is 0 or less
+}
+
+void Pokemon::heal()
+{
+	health = maxHealth; // Resetting health to maximum
 }

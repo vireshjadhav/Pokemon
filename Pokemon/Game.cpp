@@ -12,9 +12,9 @@ using namespace std;
 Game::Game()
 {
      forestGrass = { "Forest",
-        {Pokemon("Zubat", PokemonType::POISON, 30),
-        Pokemon("Caterpie", PokemonType::BUG, 35),
-        Pokemon("Pidgey", PokemonType::NORMAL, 40)},
+        {Pokemon("Zubat", PokemonType::POISON, 30, 30, 12),
+        Pokemon("Caterpie", PokemonType::BUG, 35, 35, 10),
+        Pokemon("Pidgey", PokemonType::NORMAL, 40, 50, 15)},
         80
     };
 }
@@ -62,8 +62,12 @@ void Game::gameLoop(Player &player)
             break;
         }
         case 2:
-            cout << "You head to the PokeCenter, but Nurse Joy is out on a coffee break. Guess your Pokemon will have to tough it out for now!" << endl;
+        {
+            cout << "You head to the PokeCenter." << endl;
+            player.chosenPokemon.heal();
+            cout << player.chosenPokemon.name << "'s health is fully restored!" << endl;
             break;
+        }
         case 3:
             cout << "You march up to the Gym, but it's closed for renovations. Seems like even Gym Leaders need a break!" << endl;
             break;
