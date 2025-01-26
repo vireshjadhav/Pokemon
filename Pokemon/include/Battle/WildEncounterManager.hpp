@@ -1,5 +1,5 @@
 //WildEncounterManager.hpp
-
+#include "../../Include/WildEncounterManager;"
 #include <vector>
 #include "Pokemon.hpp"
 #include "Grass.hpp"
