@@ -1,5 +1,6 @@
 #include <iostream>
 #include "BattleManager.hpp"
+#include "BattleState.hpp"
 #include "Grass.hpp"
 #include "Player.hpp"
 #include "Utility.hpp"
@@ -11,20 +12,31 @@ using namespace std;
 
 void BattleManager::startBattle(Player &player, Pokemon &wildPokemon)
 {
+	battleState.playerPokemon = &player.chosenPokemon;
+	battleState.wildPokemon = &wildPokemon;
+	battleState.playerTurn = true;
+	battleState.battleOngoing = true;
+
 	cout << "A Wild " << wildPokemon.name << " appeared!" << endl;
 	battle(player.chosenPokemon, wildPokemon, player);
 }
 
 void BattleManager::battle(Pokemon &playerPokemon, Pokemon &wildPokemon, Player &player)
 {
-	while(!playerPokemon.isFainted() && !wildPokemon.isFainted())
+	while (battleState.battleOngoing)
 	{
-		playerPokemon.attack(wildPokemon);
-
-		if (!wildPokemon.isFainted())
+		if (battleState.playerTurn)
 		{
-			wildPokemon.attack(playerPokemon);
+			battleState.playerPokemon->attack(*battleState.wildPokemon);
 		}
+		else
+		{
+			battleState.wildPokemon->attack(*battleState.playerPokemon);
+		}
+
+		updateBattleState();
+
+		battleState.playerTurn = !battleState.playerTurn;
 
 		Utility::waitForEnter();
 	}
@@ -32,17 +44,26 @@ void BattleManager::battle(Pokemon &playerPokemon, Pokemon &wildPokemon, Player 
 	handleBattleOutcome(player, playerPokemon.isFainted());
 }
 
+void BattleManager::updateBattleState() 
+{
+	if (battleState.playerPokemon->isFainted())
+	{
+		battleState.battleOngoing = false;
+	}
+	else if (battleState.wildPokemon->isFainted())
+	{
+		battleState.battleOngoing = false;
+	}
+}
+
 void BattleManager::handleBattleOutcome(Player &player, bool playerWon)
 {
-	if (playerWon)
+	if (battleState.playerPokemon->isFainted())
 	{
-		cout << player.chosenPokemon.name << " is victorious! Keep an eye on your Pokemon's Health" << endl;
+		cout << battleState.playerPokemon->name << " has fainted! You lose the battle." << endl;
 	}
 	else
 	{
-		cout << "Oh no! " << player.chosenPokemon.name << " fainted! You need to visit the PokeCenter." << endl;
-		Utility::waitForEnter();
-		cout << "Game Over." << endl;
-
+		cout << "You defeated the wild " << battleState.wildPokemon->name << "!" << endl;
 	}
 }
