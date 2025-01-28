@@ -1,9 +1,9 @@
 //Player.cpp
-#include "Player.hpp"
-#include "PokemonChoice.hpp"
-#include "PokemonType.hpp"
-#include "Utility.hpp"
 #include <iostream>
+#include "../../../include/Character/Player/Player.hpp"
+#include "../../../include/Pokemon/PokemonChoice.hpp"
+#include "../../../include/Pokemon/PokemonType.hpp"
+#include "../../../include/Utility/Utility.hpp"
 using namespace std;
 
 //Default constructor

@@ -1,14 +1,13 @@
-#include "Player.hpp"
-#include "PokemonChoice.hpp"
-#include "PokemonType.hpp"
-#include "Game.hpp"
-#include "Utility.hpp"
-#include "ProfessorOak.hpp"
+#include "include/Character/Player/Player.hpp"
+#include "include/Pokemon/PokemonChoice.hpp"
+#include "include/Pokemon/PokemonType.hpp"
+#include "include/Main/Game.hpp"
+#include "include/Utility/Utility.hpp"
+#include "include/Character/ProfessorOak.hpp"
 #include <iostream>
 #include <limits>
 #include <string>
 using namespace std;
-
 
 //Creating a class (Pokemon)
 // class Pokemon

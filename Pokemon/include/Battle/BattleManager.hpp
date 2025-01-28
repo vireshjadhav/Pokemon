@@ -2,8 +2,8 @@
 
 
 
-#include "Player.hpp"
-#include "BattleState.hpp"
+#include "../../include/Character/Player/Player.hpp"
+#include "../../include/Battle/BattleState.hpp"
 
 class BattleManager
 {

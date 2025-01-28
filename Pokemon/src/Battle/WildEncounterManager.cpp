@@ -1,7 +1,7 @@
 //WildEncounterManager.cpp
 
-#include "WildEncounterManager.hpp"
-#include "Grass.hpp"
+#include "../../include/Battle/WildEncounterManager.hpp"
+#include "../../include/Pokemon/grass.hpp"
 #include <cstdlib>
 #include <ctime>
 

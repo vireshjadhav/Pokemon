@@ -1,11 +1,11 @@
 //Game.cpp
-#include "Game.hpp"
-#include "Player.hpp"
-#include "PokemonType.hpp"
-#include "WildEncounterManager.hpp"
-#include "BattleManager.hpp"
-#include "Utility.hpp" 
-#include "grass.hpp"
+#include "../../include/Main/Game.hpp"
+#include "../../include/Character/Player/Player.hpp"
+#include "../../include/Pokemon/PokemonType.hpp"
+#include "../../include/Battle/WildEncounterManager.hpp"
+#include "../../include/Battle/BattleManager.hpp"
+#include "../../include/Utility/Utility.hpp" 
+#include "../../include/Pokemon/grass.hpp"
 #include <iostream>
 using namespace std;
 

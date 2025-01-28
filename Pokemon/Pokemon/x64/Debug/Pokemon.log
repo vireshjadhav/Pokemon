@@ -1,12 +1,12 @@
-﻿  BattleManager.cpp
-  Game.cpp
-F:\CPP Projects\Pokemon\Pokemon\Game.cpp(27,19): warning C4101: 'battleManager': unreferenced local variable
-  main.cpp
-  Player.cpp
-  Pokemon.cpp
-  ProfessorOak.cpp
-  Utility.cpp
+﻿  main.cpp
+  BattleManager.cpp
   WildEncounterManager.cpp
-F:\CPP Projects\Pokemon\Pokemon\WildEncounterManager.cpp(9,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+F:\CPP Projects\Pokemon\Pokemon\src\Battle\WildEncounterManager.cpp(9,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Player.cpp
+  ProfessorOak.cpp
+  Game.cpp
+F:\CPP Projects\Pokemon\Pokemon\src\Main\Game.cpp(27,19): warning C4101: 'battleManager': unreferenced local variable
+  Pokemon.cpp
+  Utility.cpp
   Generating Code...
   Pokemon.vcxproj -> F:\CPP Projects\Pokemon\Pokemon\x64\Debug\Pokemon.exe

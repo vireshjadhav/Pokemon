@@ -1,13 +1,13 @@
 #include <iostream>
-#include "BattleManager.hpp"
-#include "BattleState.hpp"
-#include "Grass.hpp"
-#include "Player.hpp"
-#include "Utility.hpp"
-#include "Pokemon.hpp"
-#include "PokemonType.hpp"
-#include "PokemonChoice.hpp"
-#include "WildEncounterManager.hpp"
+#include "../../include/Battle/BattleManager.hpp"
+#include "../../include/Battle/BattleState.hpp"
+#include "../../include/Pokemon/grass.hpp"
+#include "../../include/Character/Player/Player.hpp"
+#include "../../include/Utility/Utility.hpp"
+#include "../../include/Pokemon/Pokemon.hpp"
+#include "../../include/Pokemon/PokemonType.hpp"
+#include "../../include/Pokemon/PokemonChoice.hpp"
+#include "../../include/Battle/WildEncounterManager.hpp"
 using namespace std;
 
 void BattleManager::startBattle(Player &player, Pokemon &wildPokemon)
