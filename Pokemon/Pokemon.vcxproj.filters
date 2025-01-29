@@ -56,7 +56,7 @@
     <ClInclude Include="include\Main\Game.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\Pokemon\grass.hpp">
+    <ClInclude Include="include\Pokemon\Grass.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="include\Pokemon\Pokemon.hpp">

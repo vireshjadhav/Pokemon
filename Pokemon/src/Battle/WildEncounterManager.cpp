@@ -4,6 +4,8 @@
 #include "../../include/Pokemon/grass.hpp"
 #include <cstdlib>
 #include <ctime>
+using namespace N_Pokemon;
+using namespace N_Battle;
 
 WildEncounterManager::WildEncounterManager() {
 	srand(time(0));

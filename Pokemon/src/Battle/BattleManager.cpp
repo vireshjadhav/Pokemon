@@ -9,6 +9,10 @@
 #include "../../include/Pokemon/PokemonChoice.hpp"
 #include "../../include/Battle/WildEncounterManager.hpp"
 using namespace std;
+using namespace N_Utility;
+using namespace N_Pokemon;
+using namespace N_Battle;
+using namespace N_Player;
 
 void BattleManager::startBattle(Player &player, Pokemon &wildPokemon)
 {

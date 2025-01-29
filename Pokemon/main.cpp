@@ -8,6 +8,11 @@
 #include <limits>
 #include <string>
 using namespace std;
+using namespace N_Utility;
+using namespace N_Pokemon;
+using namespace N_Main;
+using namespace N_Character;
+using namespace N_Player;
 
 //Creating a class (Pokemon)
 // class Pokemon
