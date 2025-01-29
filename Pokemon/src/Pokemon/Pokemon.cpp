@@ -5,62 +5,66 @@
 using namespace std;
 using namespace N_Pokemon;
 
-//Default constructor
-Pokemon::Pokemon()
-{
-  name = "Unknown";
-  type = PokemonType::NORMAL;
-  health = 50;
-}
 
-//Parameterized constructor
-Pokemon::Pokemon(string p_name, PokemonType p_type, int p_health, int p_maxHealth, int p_attackPower)
-{
-	name = p_name;
-	type = p_type;
-	health = p_health;
-	maxHealth = p_maxHealth;
-	attackPower = p_attackPower;
-}
+namespace N_Pokemon {
+	//Default constructor
+	Pokemon::Pokemon()
+	{
+		name = "Unknown";
+		type = PokemonType::NORMAL;
+		health = 50;
+	}
 
-//Copy constructor
-Pokemon::Pokemon(const Pokemon &other)
-{
-  name = other.name;
-  type = other.type;
-  health = other.health;
-  maxHealth = other.maxHealth;
-  attackPower = other.attackPower;
-}
+	//Parameterized constructor
+	Pokemon::Pokemon(string p_name, PokemonType p_type, int p_health, int p_maxHealth, int p_attackPower)
+	{
+		name = p_name;
+		type = p_type;
+		health = p_health;
+		maxHealth = p_maxHealth;
+		attackPower = p_attackPower;
+	}
 
-
-//Destructor
-Pokemon::~Pokemon()
-{
-}
+	//Copy constructor
+	Pokemon::Pokemon(const Pokemon& other)
+	{
+		name = other.name;
+		type = other.type;
+		health = other.health;
+		maxHealth = other.maxHealth;
+		attackPower = other.attackPower;
+	}
 
 
-// Function to demonstrate attack
-void Pokemon::attack(Pokemon& target) 
-{
-	int damage = attackPower; //Use attack Power for damage calculation
-	cout << name << " attacks " << target.name << " for " << damage << " damage!" << endl;
-	target.takeDamage(attackPower);  
-}
+	//Destructor
+	Pokemon::~Pokemon()
+	{
+	}
 
-void Pokemon::takeDamage(int damage)
-{
-	health -= damage;//Reduce HP by the damage amount
-	if (health < 0)
-		health = 0; //Ensure HP doesn't go below 0
-}
 
-bool Pokemon::isFainted() const
-{
-	return health <= 0; // Retun true if HP is 0 or less
-}
+	// Function to demonstrate attack
+	void Pokemon::attack(Pokemon& target)
+	{
+		int damage = attackPower; //Use attack Power for damage calculation
+		cout << name << " attacks " << target.name << " for " << damage << " damage!" << endl;
+		target.takeDamage(attackPower);
+	}
 
-void Pokemon::heal()
-{
-	health = maxHealth; // Resetting health to maximum
+	void Pokemon::takeDamage(int damage)
+	{
+		health -= damage;//Reduce HP by the damage amount
+		if (health < 0)
+			health = 0; //Ensure HP doesn't go below 0
+	}
+
+	bool Pokemon::isFainted() const
+	{
+		return health <= 0; // Retun true if HP is 0 or less
+	}
+
+	void Pokemon::heal()
+	{
+		health = maxHealth; // Resetting health to maximum
+	}
+
 }
