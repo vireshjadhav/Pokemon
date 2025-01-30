@@ -43,7 +43,7 @@ namespace N_Player {
         default:
             chosenPokemon = Pokemon("Pikachu", PokemonType::ELECTRIC, 100, 110, 22);
         }
-        cout << "Player " << name << " chose " << chosenPokemon.name << "!" << endl;
+        cout << "Player " << name << " chose " << chosenPokemon.getName() << "!" << endl;
 
         Utility::waitForEnter();
     }

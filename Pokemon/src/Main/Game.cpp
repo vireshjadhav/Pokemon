@@ -66,14 +66,14 @@ namespace N_Main {
             {
                 WildEncounterManager encounterManager;
                 Pokemon encounteredPokemon = encounterManager.getRandomPokemonFromGrass(forestGrass);
-                cout << "A Wild " << encounteredPokemon.name << " appeared!" << endl;
+                cout << "A Wild " << encounteredPokemon.getName() << " appeared!" << endl;
                 break;
             }
             case 2:
             {
                 cout << "You head to the PokeCenter." << endl;
                 player.chosenPokemon.heal();
-                cout << player.chosenPokemon.name << "'s health is fully restored!" << endl;
+                cout << player.chosenPokemon.getName()<< "'s health is fully restored!" << endl;
                 break;
             }
             case 3:

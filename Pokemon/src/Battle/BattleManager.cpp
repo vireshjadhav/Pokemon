@@ -21,7 +21,7 @@ void BattleManager::startBattle(Player &player, Pokemon &wildPokemon)
 	battleState.playerTurn = true;
 	battleState.battleOngoing = true;
 
-	cout << "A Wild " << wildPokemon.name << " appeared!" << endl;
+	cout << "A Wild " << wildPokemon.getName() << " appeared!" << endl;
 	battle(player.chosenPokemon, wildPokemon, player);
 }
 
@@ -64,10 +64,10 @@ void BattleManager::handleBattleOutcome(Player &player, bool playerWon)
 {
 	if (battleState.playerPokemon->isFainted())
 	{
-		cout << battleState.playerPokemon->name << " has fainted! You lose the battle." << endl;
+		cout << battleState.playerPokemon->getName() << " has fainted! You lose the battle." << endl;
 	}
 	else
 	{
-		cout << "You defeated the wild " << battleState.wildPokemon->name << "!" << endl;
+		cout << "You defeated the wild " << battleState.wildPokemon->getName() << "!" << endl;
 	}
 }

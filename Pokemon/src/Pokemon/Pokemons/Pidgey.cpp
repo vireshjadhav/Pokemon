@@ -16,7 +16,7 @@ namespace N_Pokemon {
 
 		void Pidgey::wingAttack(Pokemon& target)
 		{
-			cout << name << "uses wing  Attack on" << target.name << "!" << endl;
+			cout << name << "uses wing  Attack on" << target.getName() << "!" << endl;
 			target.takeDamage(35);
 		}
 

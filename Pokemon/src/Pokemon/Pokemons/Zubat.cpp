@@ -13,7 +13,8 @@ namespace N_Pokemon {
 
 		void Zubat::superSonic(Pokemon &target)
 		{
-			cout << name << "uses Wing Attack on" << target.name << "!" << endl;
+			cout << name << "uses Wing Attack on" << target.getName() << "!" << endl;
+			target.takeDamage(20);
 		}
 
 	}
