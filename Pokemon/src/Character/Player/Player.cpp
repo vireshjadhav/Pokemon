@@ -14,11 +14,11 @@ namespace N_Player {
     Player::Player()
     {
         name = "Trainer";
-        chosenPokemon = Pokemon();//Using the default Pokemon constructor
+        chosenPokemon = new Pokemon();//Using the default Pokemon constructor
     }
 
     //Parameterized constructor
-    Player::Player(string p_name, Pokemon p_chosenPokemon)
+    Player::Player(string p_name, Pokemon* p_chosenPokemon)
     {
         name = p_name;
         chosenPokemon = p_chosenPokemon;
@@ -32,19 +32,23 @@ namespace N_Player {
         switch ((PokemonChoice)choice)
         {
         case PokemonChoice::CHARMANDER:
-            chosenPokemon = Pokemon("Charmander", PokemonType::FIRE, 100, 100, 20);
+            chosenPokemon =new  Pokemon("Charmander", PokemonType::FIRE, 100, 100, 20);
             break;
         case PokemonChoice::BULBASAUR:
-            chosenPokemon = Pokemon("Bulbasaur", PokemonType::GRASS, 100, 120, 16);
+            chosenPokemon =new  Pokemon("Bulbasaur", PokemonType::GRASS, 100, 120, 16);
             break;
         case PokemonChoice::SQUIRTLE:
-            chosenPokemon = Pokemon("Squirtle", PokemonType::WATER, 100, 80, 24);
+            chosenPokemon =new Pokemon("Squirtle", PokemonType::WATER, 100, 80, 24);
             break;
         default:
-            chosenPokemon = Pokemon("Pikachu", PokemonType::ELECTRIC, 100, 110, 22);
+            chosenPokemon =new Pokemon("Pikachu", PokemonType::ELECTRIC, 100, 110, 22);
         }
-        cout << "Player " << name << " chose " << chosenPokemon.getName() << "!" << endl;
+        cout << "Player " << name << " chose " << chosenPokemon->getName() << "!" << endl;
 
         Utility::waitForEnter();
+    }
+
+    Player::~Player() {
+        delete chosenPokemon;
     }
 }

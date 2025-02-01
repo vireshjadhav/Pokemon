@@ -11,10 +11,12 @@ namespace N_Pokemon {
 
 		Zubat::Zubat() : Pokemon("Zubat", PokemonType::NORMAL, 100, 100, 20) {};
 
-		void Zubat::superSonic(Pokemon &target)
+		Zubat::~Zubat() {}
+
+		void Zubat::superSonic(Pokemon* target)
 		{
-			cout << name << "uses Wing Attack on" << target.getName() << "!" << endl;
-			target.takeDamage(20);
+			cout << name << "uses Wing Attack on" << target->getName() << "!" << endl;
+			target->takeDamage(20);
 		}
 
 	}

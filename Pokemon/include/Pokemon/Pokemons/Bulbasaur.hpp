@@ -7,8 +7,9 @@ namespace N_Pokemon {
 		class Bulbasaur : public Pokemon {
 		public:
 			Bulbasaur();
+			~Bulbasaur();
 		private:
-			void vineWipe(Pokemon& target);
+			void vineWipe(Pokemon* target);
 		};
 	}
 }
