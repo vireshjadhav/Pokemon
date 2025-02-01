@@ -1,54 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Viresh\\Reps\\Pokemon\\Pokemon\\",
+  "WorkspaceRootPath": "F:\\CPP Projects\\Pokemon\\Pokemon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|D:\\Viresh\\Reps\\Pokemon\\Pokemon\\src\\Battle\\BattleManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:src\\Battle\\BattleManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|F:\\CPP Projects\\Pokemon\\Pokemon\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|D:\\Viresh\\Reps\\Pokemon\\Pokemon\\src\\Character\\Player\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:src\\Character\\Player\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|D:\\Viresh\\Reps\\Pokemon\\Pokemon\\src\\Main\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Main\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:src\\Main\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|D:\\Viresh\\Reps\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemons\\Zubat.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:src\\Pokemon\\Pokemons\\Zubat.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Character\\Player\\Player.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:include\\Character\\Player\\Player.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|D:\\Viresh\\Reps\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemons\\Squirtle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:src\\Pokemon\\Pokemons\\Squirtle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|D:\\Viresh\\Reps\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemons\\Pikachu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:src\\Pokemon\\Pokemons\\Pikachu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|D:\\Viresh\\Reps\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemons\\Pidgey.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:src\\Pokemon\\Pokemons\\Pidgey.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|D:\\Viresh\\Reps\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemons\\Charmander.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:src\\Pokemon\\Pokemons\\Charmander.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|D:\\Viresh\\Reps\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemons\\Bulbasaur.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:src\\Pokemon\\Pokemons\\Bulbasaur.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|D:\\Viresh\\Reps\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemons\\Caterpie.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:src\\Pokemon\\Pokemons\\Caterpie.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|D:\\Viresh\\Reps\\Pokemon\\Pokemon\\include\\Pokemon\\Pokemons\\Bulbasaur.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:include\\Pokemon\\Pokemons\\Bulbasaur.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|D:\\Viresh\\Reps\\Pokemon\\Pokemon\\include\\Pokemon\\Pokemon.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:include\\Pokemon\\Pokemon.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Character\\Player\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:src\\Character\\Player\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,162 +26,62 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Player.cpp",
-              "DocumentMoniker": "D:\\Viresh\\Reps\\Pokemon\\Pokemon\\src\\Character\\Player\\Player.cpp",
-              "RelativeDocumentMoniker": "src\\Character\\Player\\Player.cpp",
-              "ToolTip": "D:\\Viresh\\Reps\\Pokemon\\Pokemon\\src\\Character\\Player\\Player.cpp",
-              "RelativeToolTip": "src\\Character\\Player\\Player.cpp",
-              "ViewState": "AgIAABgAAAAAAAAAAAAlwC0AAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-30T12:12:27.89Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BattleManager.cpp",
-              "DocumentMoniker": "D:\\Viresh\\Reps\\Pokemon\\Pokemon\\src\\Battle\\BattleManager.cpp",
-              "RelativeDocumentMoniker": "src\\Battle\\BattleManager.cpp",
-              "ToolTip": "D:\\Viresh\\Reps\\Pokemon\\Pokemon\\src\\Battle\\BattleManager.cpp",
-              "RelativeToolTip": "src\\Battle\\BattleManager.cpp",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAlwEIAAAAuAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Game.cpp",
+              "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Main\\Game.cpp",
+              "RelativeDocumentMoniker": "src\\Main\\Game.cpp",
+              "ToolTip": "F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Main\\Game.cpp",
+              "RelativeToolTip": "src\\Main\\Game.cpp",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-30T12:10:51.257Z",
+              "WhenOpened": "2025-02-01T19:14:19.936Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Game.cpp",
-              "DocumentMoniker": "D:\\Viresh\\Reps\\Pokemon\\Pokemon\\src\\Main\\Game.cpp",
-              "RelativeDocumentMoniker": "src\\Main\\Game.cpp",
-              "ToolTip": "D:\\Viresh\\Reps\\Pokemon\\Pokemon\\src\\Main\\Game.cpp",
-              "RelativeToolTip": "src\\Main\\Game.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-29T19:07:46.655Z",
+              "Title": "Player.hpp",
+              "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Character\\Player\\Player.hpp",
+              "RelativeDocumentMoniker": "include\\Character\\Player\\Player.hpp",
+              "ToolTip": "F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Character\\Player\\Player.hpp",
+              "RelativeToolTip": "include\\Character\\Player\\Player.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-01T19:13:48.576Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Zubat.cpp",
-              "DocumentMoniker": "D:\\Viresh\\Reps\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemons\\Zubat.cpp",
-              "RelativeDocumentMoniker": "src\\Pokemon\\Pokemons\\Zubat.cpp",
-              "ToolTip": "D:\\Viresh\\Reps\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemons\\Zubat.cpp",
-              "RelativeToolTip": "src\\Pokemon\\Pokemons\\Zubat.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA8AAAAAAAAAA==",
+              "Title": "Player.cpp",
+              "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Character\\Player\\Player.cpp",
+              "RelativeDocumentMoniker": "src\\Character\\Player\\Player.cpp",
+              "ToolTip": "F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Character\\Player\\Player.cpp",
+              "RelativeToolTip": "src\\Character\\Player\\Player.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-30T12:09:32.512Z",
+              "WhenOpened": "2025-02-01T19:12:37.922Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Squirtle.cpp",
-              "DocumentMoniker": "D:\\Viresh\\Reps\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemons\\Squirtle.cpp",
-              "RelativeDocumentMoniker": "src\\Pokemon\\Pokemons\\Squirtle.cpp",
-              "ToolTip": "D:\\Viresh\\Reps\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemons\\Squirtle.cpp",
-              "RelativeToolTip": "src\\Pokemon\\Pokemons\\Squirtle.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA/AAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "F:\\CPP Projects\\Pokemon\\Pokemon\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-30T12:09:20.572Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Pikachu.cpp",
-              "DocumentMoniker": "D:\\Viresh\\Reps\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemons\\Pikachu.cpp",
-              "RelativeDocumentMoniker": "src\\Pokemon\\Pokemons\\Pikachu.cpp",
-              "ToolTip": "D:\\Viresh\\Reps\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemons\\Pikachu.cpp",
-              "RelativeToolTip": "src\\Pokemon\\Pokemons\\Pikachu.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-30T12:09:09.06Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Pidgey.cpp",
-              "DocumentMoniker": "D:\\Viresh\\Reps\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemons\\Pidgey.cpp",
-              "RelativeDocumentMoniker": "src\\Pokemon\\Pokemons\\Pidgey.cpp",
-              "ToolTip": "D:\\Viresh\\Reps\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemons\\Pidgey.cpp",
-              "RelativeToolTip": "src\\Pokemon\\Pokemons\\Pidgey.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-30T12:08:35.918Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Charmander.cpp",
-              "DocumentMoniker": "D:\\Viresh\\Reps\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemons\\Charmander.cpp",
-              "RelativeDocumentMoniker": "src\\Pokemon\\Pokemons\\Charmander.cpp",
-              "ToolTip": "D:\\Viresh\\Reps\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemons\\Charmander.cpp",
-              "RelativeToolTip": "src\\Pokemon\\Pokemons\\Charmander.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-30T12:08:22.524Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Caterpie.cpp",
-              "DocumentMoniker": "D:\\Viresh\\Reps\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemons\\Caterpie.cpp",
-              "RelativeDocumentMoniker": "src\\Pokemon\\Pokemons\\Caterpie.cpp",
-              "ToolTip": "D:\\Viresh\\Reps\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemons\\Caterpie.cpp",
-              "RelativeToolTip": "src\\Pokemon\\Pokemons\\Caterpie.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-30T12:08:04.442Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Bulbasaur.cpp",
-              "DocumentMoniker": "D:\\Viresh\\Reps\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemons\\Bulbasaur.cpp",
-              "RelativeDocumentMoniker": "src\\Pokemon\\Pokemons\\Bulbasaur.cpp",
-              "ToolTip": "D:\\Viresh\\Reps\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemons\\Bulbasaur.cpp",
-              "RelativeToolTip": "src\\Pokemon\\Pokemons\\Bulbasaur.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-30T12:06:54.259Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Pokemon.hpp",
-              "DocumentMoniker": "D:\\Viresh\\Reps\\Pokemon\\Pokemon\\include\\Pokemon\\Pokemon.hpp",
-              "RelativeDocumentMoniker": "include\\Pokemon\\Pokemon.hpp",
-              "ToolTip": "D:\\Viresh\\Reps\\Pokemon\\Pokemon\\include\\Pokemon\\Pokemon.hpp",
-              "RelativeToolTip": "include\\Pokemon\\Pokemon.hpp",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-30T12:05:58.999Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Bulbasaur.hpp",
-              "DocumentMoniker": "D:\\Viresh\\Reps\\Pokemon\\Pokemon\\include\\Pokemon\\Pokemons\\Bulbasaur.hpp",
-              "RelativeDocumentMoniker": "include\\Pokemon\\Pokemons\\Bulbasaur.hpp",
-              "ToolTip": "D:\\Viresh\\Reps\\Pokemon\\Pokemon\\include\\Pokemon\\Pokemons\\Bulbasaur.hpp",
-              "RelativeToolTip": "include\\Pokemon\\Pokemons\\Bulbasaur.hpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-30T12:05:54.966Z",
+              "WhenOpened": "2025-02-01T18:38:59.647Z",
               "EditorCaption": ""
             }
           ]
