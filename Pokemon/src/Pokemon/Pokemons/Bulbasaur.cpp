@@ -11,9 +11,11 @@ namespace N_Pokemon {
 
 		Bulbasaur::Bulbasaur() : Pokemon("Bulbasaur", PokemonType::WATER, 100, 100, 35) {}
 
-		void Bulbasaur::vineWipe(Pokemon& target) {
-			cout << name << " uses vine whip on " << target.getName() << "!" << endl;
-			target.takeDamage(20);
+		Bulbasaur::~Bulbasaur() {}
+
+		void Bulbasaur::vineWipe(Pokemon* target) {
+			cout << name << " uses vine whip on " << target->getName() << "!" << endl;
+			target->takeDamage(20);
 		}
 
 	}

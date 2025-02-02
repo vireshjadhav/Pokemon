@@ -10,6 +10,6 @@ namespace N_Battle {
 	{
 	public:
 		WildEncounterManager();
-		Pokemon getRandomPokemonFromGrass(const Grass& grass);
+		Pokemon* getRandomPokemonFromGrass(const Grass* grass);
 	};
 }

@@ -33,7 +33,7 @@ namespace N_Pokemon{
 
         ~Pokemon(); // destructor
 
-        void attack(Pokemon& target); //function to attack give damage to opponent
+        void attack(Pokemon* target); //function to attack give damage to opponent
 
         void takeDamage(int damage);//function to deduct damagetaken from health points
 

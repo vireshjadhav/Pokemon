@@ -18,17 +18,18 @@ using namespace N_Player;
 namespace N_Main {
     Game::Game()
     {
-        forestGrass = { "Forest",
-           {Pokemon("Zubat", PokemonType::POISON, 30, 30, 12),
-           Pokemon("Caterpie", PokemonType::BUG, 35, 35, 10),
-           Pokemon("Pidgey", PokemonType::NORMAL, 40, 50, 15)},
-           80
-        };
+        forestGrass = new Grass{ "Forest" };
+
+        Pokemon("Zubat", PokemonType::POISON, 30, 30, 12),
+        Pokemon("Caterpie", PokemonType::BUG, 35, 35, 10),
+        Pokemon("Pidgey", PokemonType::NORMAL, 40, 50, 15);
+        
+        80;
     }
 
 
 
-    void Game::gameLoop(Player& player)
+    void Game::gameLoop(Player* player)
     {
         BattleManager battleManager;
         int choice;
@@ -41,7 +42,7 @@ namespace N_Main {
 
 
             //Display options to the player
-            cout << "What would you like to do next - " << player.name << "?" << endl;
+            cout << "What would you like to do next - " << player->name << "?" << endl;
 
             cout << "1. Battle Wild Pokémon" << endl;
 
@@ -65,15 +66,15 @@ namespace N_Main {
             case 1:
             {
                 WildEncounterManager encounterManager;
-                Pokemon encounteredPokemon = encounterManager.getRandomPokemonFromGrass(forestGrass);
+                Pokemon encounteredPokemon = *encounterManager.getRandomPokemonFromGrass(forestGrass);
                 cout << "A Wild " << encounteredPokemon.getName() << " appeared!" << endl;
                 break;
             }
             case 2:
             {
                 cout << "You head to the PokeCenter." << endl;
-                player.chosenPokemon.heal();
-                cout << player.chosenPokemon.getName()<< "'s health is fully restored!" << endl;
+                player->chosenPokemon->heal();
+                cout << player->chosenPokemon->getName()<< "'s health is fully restored!" << endl;
                 break;
             }
             case 3:
@@ -102,6 +103,6 @@ namespace N_Main {
 
         }
 
-        cout << "Goodbye, " << player.name << "! Thanks for playing!" << endl;
+        cout << "Goodbye, " << player->name << "! Thanks for playing!" << endl;
     }
 }

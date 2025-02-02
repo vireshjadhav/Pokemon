@@ -11,9 +11,9 @@ namespace N_Main {
 	class Game
 	{
 	private:
-		Grass forestGrass;
+		Grass* forestGrass;
 	public:
 		Game();
-		void gameLoop(Player& player);
+		void gameLoop(Player* player);
 	};
 }

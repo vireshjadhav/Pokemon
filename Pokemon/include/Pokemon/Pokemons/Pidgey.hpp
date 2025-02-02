@@ -9,8 +9,10 @@ namespace N_Pokemon {
 		{
 		public:
 			Pidgey();
+			~Pidgey();
+
 		private:
-			void wingAttack(Pokemon& target);
+			void wingAttack(Pokemon* target);
 		};
 
 	}

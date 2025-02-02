@@ -10,8 +10,10 @@ namespace N_Pokemon {
 		{
 		public:
 			Pikachu();
+			~Pikachu();
+
 		private:
-			void thunderShock(Pokemon& target);
+			void thunderShock(Pokemon* target);
 		};
 
 	}

@@ -1,11 +1,10 @@
 ﻿  main.cpp
   BattleManager.cpp
   WildEncounterManager.cpp
-D:\Viresh\Reps\Pokemon\Pokemon\src\Battle\WildEncounterManager.cpp(11,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+F:\CPP Projects\Pokemon\Pokemon\src\Battle\WildEncounterManager.cpp(11,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
   Player.cpp
   ProfessorOak.cpp
   Game.cpp
-D:\Viresh\Reps\Pokemon\Pokemon\src\Main\Game.cpp(33,23): warning C4101: 'battleManager': unreferenced local variable
   Pokemon.cpp
   Bulbasaur.cpp
   Caterpie.cpp
@@ -16,4 +15,4 @@ D:\Viresh\Reps\Pokemon\Pokemon\src\Main\Game.cpp(33,23): warning C4101: 'battleM
   Zubat.cpp
   Utility.cpp
   Generating Code...
-  Pokemon.vcxproj -> D:\Viresh\Reps\Pokemon\Pokemon\x64\Debug\Pokemon.exe
+  Pokemon.vcxproj -> F:\CPP Projects\Pokemon\Pokemon\x64\Debug\Pokemon.exe
