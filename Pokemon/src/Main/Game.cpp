@@ -6,10 +6,15 @@
 #include "../../include/Battle/BattleManager.hpp"
 #include "../../include/Utility/Utility.hpp" 
 #include "../../include/Pokemon/grass.hpp"
+#include "../../include/Pokemon/Pokemons/Zubat.hpp"
+#include "../../include/Pokemon/Pokemons/Caterpie.hpp"
+#include "../../include/Pokemon/Pokemons/Pidgey.hpp"
+
 #include <iostream>
 using namespace std;
 using namespace N_Utility;
 using namespace N_Pokemon;
+using namespace N_Pokemons;
 using namespace N_Battle;
 using namespace N_Player;
 
@@ -19,15 +24,19 @@ namespace N_Main {
     Game::Game()
     {
         forestGrass = new Grass{ "Forest" };
+        
+                forestGrass->wildPokemonList.push_back(new Zubat()),
+                forestGrass->wildPokemonList.push_back(new Caterpie()),
+                forestGrass->wildPokemonList.push_back(new Pidgey());
 
-        Pokemon("Zubat", PokemonType::POISON, 30, 30, 12),
-        Pokemon("Caterpie", PokemonType::BUG, 35, 35, 10),
-        Pokemon("Pidgey", PokemonType::NORMAL, 40, 50, 15);
         
         80;
     }
 
-
+    Game::~Game() 
+    {
+        delete wildPokemon;
+    }
 
     void Game::gameLoop(Player* player)
     {
@@ -66,8 +75,8 @@ namespace N_Main {
             case 1:
             {
                 WildEncounterManager encounterManager;
-                Pokemon encounteredPokemon = *encounterManager.getRandomPokemonFromGrass(forestGrass);
-                cout << "A Wild " << encounteredPokemon.getName() << " appeared!" << endl;
+                Pokemon* encounteredPokemon = encounterManager.getRandomPokemonFromGrass(forestGrass);
+                cout << "A Wild " << encounteredPokemon->getName() << " appeared!" << endl;
                 break;
             }
             case 2:

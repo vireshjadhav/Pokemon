@@ -3,6 +3,58 @@
   "WorkspaceRootPath": "F:\\CPP Projects\\Pokemon\\Pokemon\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:src\\Pokemon\\Pokemon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Pokemon\\Pokemon.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:include\\Pokemon\\Pokemon.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Character\\Player\\Player.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:include\\Character\\Player\\Player.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Character\\Player\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:src\\Character\\Player\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Main\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:src\\Main\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Main\\Game.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:include\\Main\\Game.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Pokemon\\Grass.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:include\\Pokemon\\Grass.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Pokemon\\Pokemons\\Pidgey.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:include\\Pokemon\\Pokemons\\Pidgey.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Pokemon\\Pokemons\\Caterpie.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:include\\Pokemon\\Pokemons\\Caterpie.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Pokemon\\Pokemons\\Bulbasaur.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:include\\Pokemon\\Pokemons\\Bulbasaur.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemons\\Bulbasaur.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:src\\Pokemon\\Pokemons\\Bulbasaur.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemons\\Charmander.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:src\\Pokemon\\Pokemons\\Charmander.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Character\\ProfessorOak.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:src\\Character\\ProfessorOak.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemons\\Zubat.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:src\\Pokemon\\Pokemons\\Zubat.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -19,10 +71,6 @@
       "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:src\\Pokemon\\Pokemons\\Squirtle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Pokemon\\Pokemons\\Pidgey.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:include\\Pokemon\\Pokemons\\Pidgey.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemons\\Pikachu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:src\\Pokemon\\Pokemons\\Pikachu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -35,48 +83,12 @@
       "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:src\\Pokemon\\Pokemons\\Pidgey.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemons\\Charmander.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:src\\Pokemon\\Pokemons\\Charmander.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Pokemon\\Pokemons\\Charmander.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:include\\Pokemon\\Pokemons\\Charmander.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemons\\Caterpie.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:src\\Pokemon\\Pokemons\\Caterpie.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Pokemon\\Pokemons\\Caterpie.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:include\\Pokemon\\Pokemons\\Caterpie.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemons\\Bulbasaur.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:src\\Pokemon\\Pokemons\\Bulbasaur.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Pokemon\\Pokemons\\Bulbasaur.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:include\\Pokemon\\Pokemons\\Bulbasaur.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:src\\Pokemon\\Pokemon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Pokemon\\Pokemon.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:include\\Pokemon\\Pokemon.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Main\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:src\\Main\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Pokemon\\Grass.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:include\\Pokemon\\Grass.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Main\\Game.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:include\\Main\\Game.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Battle\\WildEncounterManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -95,16 +107,8 @@
       "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Character\\Player\\Player.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:include\\Character\\Player\\Player.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Character\\ProfessorOak.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:include\\Character\\ProfessorOak.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Character\\ProfessorOak.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:src\\Character\\ProfessorOak.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Utility\\Utility.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -129,10 +133,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Battle\\BattleManager.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:include\\Battle\\BattleManager.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Character\\Player\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:src\\Character\\Player\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -142,16 +142,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Player.cpp",
+              "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Character\\Player\\Player.cpp",
+              "RelativeDocumentMoniker": "src\\Character\\Player\\Player.cpp",
+              "ToolTip": "F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Character\\Player\\Player.cpp",
+              "RelativeToolTip": "src\\Character\\Player\\Player.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-02T15:57:32.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Pokemon.cpp",
+              "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemon.cpp",
+              "RelativeDocumentMoniker": "src\\Pokemon\\Pokemon.cpp",
+              "ToolTip": "F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemon.cpp",
+              "RelativeToolTip": "src\\Pokemon\\Pokemon.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-02T15:59:08.928Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Game.cpp",
+              "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Main\\Game.cpp",
+              "RelativeDocumentMoniker": "src\\Main\\Game.cpp",
+              "ToolTip": "F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Main\\Game.cpp",
+              "RelativeToolTip": "src\\Main\\Game.cpp",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAkwHUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-02T16:44:03.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Pokemon.hpp",
+              "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Pokemon\\Pokemon.hpp",
+              "RelativeDocumentMoniker": "include\\Pokemon\\Pokemon.hpp",
+              "ToolTip": "F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Pokemon\\Pokemon.hpp",
+              "RelativeToolTip": "include\\Pokemon\\Pokemon.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-02T15:58:35.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Pidgey.hpp",
               "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Pokemon\\Pokemons\\Pidgey.hpp",
               "RelativeDocumentMoniker": "include\\Pokemon\\Pokemons\\Pidgey.hpp",
-              "ToolTip": "F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Pokemon\\Pokemons\\Pidgey.hpp*",
-              "RelativeToolTip": "include\\Pokemon\\Pokemons\\Pidgey.hpp*",
+              "ToolTip": "F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Pokemon\\Pokemons\\Pidgey.hpp",
+              "RelativeToolTip": "include\\Pokemon\\Pokemons\\Pidgey.hpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-02-02T16:12:22.802Z",
@@ -159,215 +215,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Pidgey.cpp",
-              "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemons\\Pidgey.cpp",
-              "RelativeDocumentMoniker": "src\\Pokemon\\Pokemons\\Pidgey.cpp",
-              "ToolTip": "F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemons\\Pidgey.cpp*",
-              "RelativeToolTip": "src\\Pokemon\\Pokemons\\Pidgey.cpp*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-02T16:15:12.664Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Pikachu.hpp",
-              "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Pokemon\\Pokemons\\Pikachu.hpp",
-              "RelativeDocumentMoniker": "include\\Pokemon\\Pokemons\\Pikachu.hpp",
-              "ToolTip": "F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Pokemon\\Pokemons\\Pikachu.hpp*",
-              "RelativeToolTip": "include\\Pokemon\\Pokemons\\Pikachu.hpp*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-02T16:16:35.689Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Pikachu.cpp",
-              "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemons\\Pikachu.cpp",
-              "RelativeDocumentMoniker": "src\\Pokemon\\Pokemons\\Pikachu.cpp",
-              "ToolTip": "F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemons\\Pikachu.cpp*",
-              "RelativeToolTip": "src\\Pokemon\\Pokemons\\Pikachu.cpp*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-02T16:15:53.188Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Squirtle.cpp",
-              "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemons\\Squirtle.cpp",
-              "RelativeDocumentMoniker": "src\\Pokemon\\Pokemons\\Squirtle.cpp",
-              "ToolTip": "F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemons\\Squirtle.cpp*",
-              "RelativeToolTip": "src\\Pokemon\\Pokemons\\Squirtle.cpp*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-02T16:17:18.552Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Squirtle.hpp",
-              "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Pokemon\\Pokemons\\Squirtle.hpp",
-              "RelativeDocumentMoniker": "include\\Pokemon\\Pokemons\\Squirtle.hpp",
-              "ToolTip": "F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Pokemon\\Pokemons\\Squirtle.hpp*",
-              "RelativeToolTip": "include\\Pokemon\\Pokemons\\Squirtle.hpp*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-02T16:16:58.184Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Zubat.hpp",
-              "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Pokemon\\Pokemons\\Zubat.hpp",
-              "RelativeDocumentMoniker": "include\\Pokemon\\Pokemons\\Zubat.hpp",
-              "ToolTip": "F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Pokemon\\Pokemons\\Zubat.hpp*",
-              "RelativeToolTip": "include\\Pokemon\\Pokemons\\Zubat.hpp*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-02T16:19:06.946Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Zubat.cpp",
-              "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemons\\Zubat.cpp",
-              "RelativeDocumentMoniker": "src\\Pokemon\\Pokemons\\Zubat.cpp",
-              "ToolTip": "F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemons\\Zubat.cpp",
-              "RelativeToolTip": "src\\Pokemon\\Pokemons\\Zubat.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-02T16:17:52.319Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Charmander.cpp",
-              "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemons\\Charmander.cpp",
-              "RelativeDocumentMoniker": "src\\Pokemon\\Pokemons\\Charmander.cpp",
-              "ToolTip": "F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemons\\Charmander.cpp*",
-              "RelativeToolTip": "src\\Pokemon\\Pokemons\\Charmander.cpp*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-02T16:09:43.981Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Charmander.hpp",
-              "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Pokemon\\Pokemons\\Charmander.hpp",
-              "RelativeDocumentMoniker": "include\\Pokemon\\Pokemons\\Charmander.hpp",
-              "ToolTip": "F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Pokemon\\Pokemons\\Charmander.hpp*",
-              "RelativeToolTip": "include\\Pokemon\\Pokemons\\Charmander.hpp*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-02T16:08:24.867Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Caterpie.cpp",
-              "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemons\\Caterpie.cpp",
-              "RelativeDocumentMoniker": "src\\Pokemon\\Pokemons\\Caterpie.cpp",
-              "ToolTip": "F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemons\\Caterpie.cpp*",
-              "RelativeToolTip": "src\\Pokemon\\Pokemons\\Caterpie.cpp*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-02T16:07:46.824Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Caterpie.hpp",
-              "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Pokemon\\Pokemons\\Caterpie.hpp",
-              "RelativeDocumentMoniker": "include\\Pokemon\\Pokemons\\Caterpie.hpp",
-              "ToolTip": "F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Pokemon\\Pokemons\\Caterpie.hpp*",
-              "RelativeToolTip": "include\\Pokemon\\Pokemons\\Caterpie.hpp*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-02T16:07:23.479Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Bulbasaur.cpp",
-              "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemons\\Bulbasaur.cpp",
-              "RelativeDocumentMoniker": "src\\Pokemon\\Pokemons\\Bulbasaur.cpp",
-              "ToolTip": "F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemons\\Bulbasaur.cpp",
-              "RelativeToolTip": "src\\Pokemon\\Pokemons\\Bulbasaur.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-02T16:02:45.528Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Bulbasaur.hpp",
-              "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Pokemon\\Pokemons\\Bulbasaur.hpp",
-              "RelativeDocumentMoniker": "include\\Pokemon\\Pokemons\\Bulbasaur.hpp",
-              "ToolTip": "F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Pokemon\\Pokemons\\Bulbasaur.hpp*",
-              "RelativeToolTip": "include\\Pokemon\\Pokemons\\Bulbasaur.hpp*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-02T16:02:28.672Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Pokemon.cpp",
-              "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemon.cpp",
-              "RelativeDocumentMoniker": "src\\Pokemon\\Pokemon.cpp",
-              "ToolTip": "F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemon.cpp",
-              "RelativeToolTip": "src\\Pokemon\\Pokemon.cpp",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACkAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-02T15:59:08.928Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Pokemon.hpp",
-              "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Pokemon\\Pokemon.hpp",
-              "RelativeDocumentMoniker": "include\\Pokemon\\Pokemon.hpp",
-              "ToolTip": "F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Pokemon\\Pokemon.hpp",
-              "RelativeToolTip": "include\\Pokemon\\Pokemon.hpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-02T15:58:35.993Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Game.cpp",
-              "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Main\\Game.cpp",
-              "RelativeDocumentMoniker": "src\\Main\\Game.cpp",
-              "ToolTip": "F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Main\\Game.cpp",
-              "RelativeToolTip": "src\\Main\\Game.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-02T16:44:03.65Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
               "Title": "Grass.hpp",
               "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Pokemon\\grass.hpp",
               "RelativeDocumentMoniker": "include\\Pokemon\\grass.hpp",
@@ -380,98 +228,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 5,
               "Title": "Game.hpp",
               "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Main\\Game.hpp",
               "RelativeDocumentMoniker": "include\\Main\\Game.hpp",
               "ToolTip": "F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Main\\Game.hpp",
               "RelativeToolTip": "include\\Main\\Game.hpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-02-02T16:33:55.974Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "WildEncounterManager.cpp",
-              "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Battle\\WildEncounterManager.cpp",
-              "RelativeDocumentMoniker": "src\\Battle\\WildEncounterManager.cpp",
-              "ToolTip": "F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Battle\\WildEncounterManager.cpp",
-              "RelativeToolTip": "src\\Battle\\WildEncounterManager.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-02T16:34:45.344Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "WildEncounterManager.hpp",
-              "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Battle\\WildEncounterManager.hpp",
-              "RelativeDocumentMoniker": "include\\Battle\\WildEncounterManager.hpp",
-              "ToolTip": "F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Battle\\WildEncounterManager.hpp",
-              "RelativeToolTip": "include\\Battle\\WildEncounterManager.hpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-02T16:33:41.541Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "BattleManager.cpp",
-              "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Battle\\BattleManager.cpp",
-              "RelativeDocumentMoniker": "src\\Battle\\BattleManager.cpp",
-              "ToolTip": "F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Battle\\BattleManager.cpp",
-              "RelativeToolTip": "src\\Battle\\BattleManager.cpp",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-02T16:22:00.872Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "main.cpp",
-              "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\main.cpp",
-              "RelativeDocumentMoniker": "main.cpp",
-              "ToolTip": "F:\\CPP Projects\\Pokemon\\Pokemon\\main.cpp",
-              "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-01T18:38:59.647Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 2,
               "Title": "Player.hpp",
               "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Character\\Player\\Player.hpp",
               "RelativeDocumentMoniker": "include\\Character\\Player\\Player.hpp",
               "ToolTip": "F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Character\\Player\\Player.hpp",
               "RelativeToolTip": "include\\Character\\Player\\Player.hpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-02-02T18:38:22.779Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "ProfessorOak.hpp",
-              "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Character\\ProfessorOak.hpp",
-              "RelativeDocumentMoniker": "include\\Character\\ProfessorOak.hpp",
-              "ToolTip": "F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Character\\ProfessorOak.hpp",
-              "RelativeToolTip": "include\\Character\\ProfessorOak.hpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAfAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "Caterpie.hpp",
+              "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Pokemon\\Pokemons\\Caterpie.hpp",
+              "RelativeDocumentMoniker": "include\\Pokemon\\Pokemons\\Caterpie.hpp",
+              "ToolTip": "F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Pokemon\\Pokemons\\Caterpie.hpp",
+              "RelativeToolTip": "include\\Pokemon\\Pokemons\\Caterpie.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-02T18:36:08.131Z",
+              "WhenOpened": "2025-02-02T16:07:23.479Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 9,
+              "Title": "Bulbasaur.hpp",
+              "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Pokemon\\Pokemons\\Bulbasaur.hpp",
+              "RelativeDocumentMoniker": "include\\Pokemon\\Pokemons\\Bulbasaur.hpp",
+              "ToolTip": "F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Pokemon\\Pokemons\\Bulbasaur.hpp",
+              "RelativeToolTip": "include\\Pokemon\\Pokemons\\Bulbasaur.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-02T16:02:28.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Bulbasaur.cpp",
+              "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemons\\Bulbasaur.cpp",
+              "RelativeDocumentMoniker": "src\\Pokemon\\Pokemons\\Bulbasaur.cpp",
+              "ToolTip": "F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemons\\Bulbasaur.cpp",
+              "RelativeToolTip": "src\\Pokemon\\Pokemons\\Bulbasaur.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-02T16:02:45.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Charmander.cpp",
+              "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemons\\Charmander.cpp",
+              "RelativeDocumentMoniker": "src\\Pokemon\\Pokemons\\Charmander.cpp",
+              "ToolTip": "F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemons\\Charmander.cpp",
+              "RelativeToolTip": "src\\Pokemon\\Pokemons\\Charmander.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-02T16:09:43.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "ProfessorOak.cpp",
               "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Character\\ProfessorOak.cpp",
               "RelativeDocumentMoniker": "src\\Character\\ProfessorOak.cpp",
@@ -484,7 +319,176 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Zubat.cpp",
+              "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemons\\Zubat.cpp",
+              "RelativeDocumentMoniker": "src\\Pokemon\\Pokemons\\Zubat.cpp",
+              "ToolTip": "F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemons\\Zubat.cpp",
+              "RelativeToolTip": "src\\Pokemon\\Pokemons\\Zubat.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-02T16:17:52.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Zubat.hpp",
+              "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Pokemon\\Pokemons\\Zubat.hpp",
+              "RelativeDocumentMoniker": "include\\Pokemon\\Pokemons\\Zubat.hpp",
+              "ToolTip": "F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Pokemon\\Pokemons\\Zubat.hpp*",
+              "RelativeToolTip": "include\\Pokemon\\Pokemons\\Zubat.hpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-02T16:19:06.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Squirtle.hpp",
+              "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Pokemon\\Pokemons\\Squirtle.hpp",
+              "RelativeDocumentMoniker": "include\\Pokemon\\Pokemons\\Squirtle.hpp",
+              "ToolTip": "F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Pokemon\\Pokemons\\Squirtle.hpp*",
+              "RelativeToolTip": "include\\Pokemon\\Pokemons\\Squirtle.hpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-02T16:16:58.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Squirtle.cpp",
+              "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemons\\Squirtle.cpp",
+              "RelativeDocumentMoniker": "src\\Pokemon\\Pokemons\\Squirtle.cpp",
+              "ToolTip": "F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemons\\Squirtle.cpp*",
+              "RelativeToolTip": "src\\Pokemon\\Pokemons\\Squirtle.cpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-02T16:17:18.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Pikachu.cpp",
+              "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemons\\Pikachu.cpp",
+              "RelativeDocumentMoniker": "src\\Pokemon\\Pokemons\\Pikachu.cpp",
+              "ToolTip": "F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemons\\Pikachu.cpp*",
+              "RelativeToolTip": "src\\Pokemon\\Pokemons\\Pikachu.cpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-02T16:15:53.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Pikachu.hpp",
+              "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Pokemon\\Pokemons\\Pikachu.hpp",
+              "RelativeDocumentMoniker": "include\\Pokemon\\Pokemons\\Pikachu.hpp",
+              "ToolTip": "F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Pokemon\\Pokemons\\Pikachu.hpp*",
+              "RelativeToolTip": "include\\Pokemon\\Pokemons\\Pikachu.hpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-02T16:16:35.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Pidgey.cpp",
+              "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemons\\Pidgey.cpp",
+              "RelativeDocumentMoniker": "src\\Pokemon\\Pokemons\\Pidgey.cpp",
+              "ToolTip": "F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemons\\Pidgey.cpp*",
+              "RelativeToolTip": "src\\Pokemon\\Pokemons\\Pidgey.cpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-02T16:15:12.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Charmander.hpp",
+              "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Pokemon\\Pokemons\\Charmander.hpp",
+              "RelativeDocumentMoniker": "include\\Pokemon\\Pokemons\\Charmander.hpp",
+              "ToolTip": "F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Pokemon\\Pokemons\\Charmander.hpp*",
+              "RelativeToolTip": "include\\Pokemon\\Pokemons\\Charmander.hpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-02T16:08:24.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Caterpie.cpp",
+              "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemons\\Caterpie.cpp",
+              "RelativeDocumentMoniker": "src\\Pokemon\\Pokemons\\Caterpie.cpp",
+              "ToolTip": "F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Pokemon\\Pokemons\\Caterpie.cpp*",
+              "RelativeToolTip": "src\\Pokemon\\Pokemons\\Caterpie.cpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-02T16:07:46.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "WildEncounterManager.cpp",
+              "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Battle\\WildEncounterManager.cpp",
+              "RelativeDocumentMoniker": "src\\Battle\\WildEncounterManager.cpp",
+              "ToolTip": "F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Battle\\WildEncounterManager.cpp",
+              "RelativeToolTip": "src\\Battle\\WildEncounterManager.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-02T16:34:45.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "WildEncounterManager.hpp",
+              "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Battle\\WildEncounterManager.hpp",
+              "RelativeDocumentMoniker": "include\\Battle\\WildEncounterManager.hpp",
+              "ToolTip": "F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Battle\\WildEncounterManager.hpp",
+              "RelativeToolTip": "include\\Battle\\WildEncounterManager.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-02T16:33:41.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "BattleManager.cpp",
+              "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Battle\\BattleManager.cpp",
+              "RelativeDocumentMoniker": "src\\Battle\\BattleManager.cpp",
+              "ToolTip": "F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Battle\\BattleManager.cpp",
+              "RelativeToolTip": "src\\Battle\\BattleManager.cpp",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-02T16:22:00.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "main.cpp",
+              "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "F:\\CPP Projects\\Pokemon\\Pokemon\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-01T18:38:59.647Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 26,
+              "Title": "ProfessorOak.hpp",
+              "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Character\\ProfessorOak.hpp",
+              "RelativeDocumentMoniker": "include\\Character\\ProfessorOak.hpp",
+              "ToolTip": "F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Character\\ProfessorOak.hpp",
+              "RelativeToolTip": "include\\Character\\ProfessorOak.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-02T18:36:08.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
               "Title": "Utility.hpp",
               "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Utility\\Utility.hpp",
               "RelativeDocumentMoniker": "include\\Utility\\Utility.hpp",
@@ -492,12 +496,11 @@
               "RelativeToolTip": "include\\Utility\\Utility.hpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-02T18:36:02.16Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-02T18:36:02.16Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "PokemonType.hpp",
               "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Pokemon\\PokemonType.hpp",
               "RelativeDocumentMoniker": "include\\Pokemon\\PokemonType.hpp",
@@ -505,12 +508,11 @@
               "RelativeToolTip": "include\\Pokemon\\PokemonType.hpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-02T18:36:00.858Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-02T18:36:00.858Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "PokemonChoice.hpp",
               "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Pokemon\\PokemonChoice.hpp",
               "RelativeDocumentMoniker": "include\\Pokemon\\PokemonChoice.hpp",
@@ -518,12 +520,11 @@
               "RelativeToolTip": "include\\Pokemon\\PokemonChoice.hpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-02T18:35:59.062Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-02T18:35:59.062Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "Utility.cpp",
               "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Utility\\Utility.cpp",
               "RelativeDocumentMoniker": "src\\Utility\\Utility.cpp",
@@ -531,16 +532,11 @@
               "RelativeToolTip": "src\\Utility\\Utility.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-02T18:35:52.956Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "WhenOpened": "2025-02-02T18:35:52.956Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "BattleState.hpp",
               "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Battle\\BattleState.hpp",
               "RelativeDocumentMoniker": "include\\Battle\\BattleState.hpp",
@@ -548,12 +544,11 @@
               "RelativeToolTip": "include\\Battle\\BattleState.hpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-02T16:33:38.424Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-02T16:33:38.424Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "BattleManager.hpp",
               "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\include\\Battle\\BattleManager.hpp",
               "RelativeDocumentMoniker": "include\\Battle\\BattleManager.hpp",
@@ -561,21 +556,7 @@
               "RelativeToolTip": "include\\Battle\\BattleManager.hpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-02T16:22:57.089Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Player.cpp",
-              "DocumentMoniker": "F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Character\\Player\\Player.cpp",
-              "RelativeDocumentMoniker": "src\\Character\\Player\\Player.cpp",
-              "ToolTip": "F:\\CPP Projects\\Pokemon\\Pokemon\\src\\Character\\Player\\Player.cpp",
-              "RelativeToolTip": "src\\Character\\Player\\Player.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-02T15:57:32.24Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-02T16:22:57.089Z"
             }
           ]
         }

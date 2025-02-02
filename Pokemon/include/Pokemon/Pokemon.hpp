@@ -29,7 +29,7 @@ namespace N_Pokemon{
 
         Pokemon(); //default constructor 
         Pokemon(string p_name, PokemonType P_type, int p_heath, int p_maxHealth, int p_attackPower); //parameterized constructor
-        Pokemon(const Pokemon& other); //copy constructor
+        Pokemon(const Pokemon* other); //copy constructor
 
         ~Pokemon(); // destructor
 

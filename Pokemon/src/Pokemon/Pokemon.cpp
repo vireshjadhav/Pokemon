@@ -26,13 +26,13 @@ namespace N_Pokemon {
 	}
 
 	//Copy constructor
-	Pokemon::Pokemon(const Pokemon& other)
+	Pokemon::Pokemon(const Pokemon* other)
 	{
-		name = other.name;
-		type = other.type;
-		health = other.health;
-		maxHealth = other.maxHealth;
-		attackPower = other.attackPower;
+		name = other->name;
+		type = other->type;
+		health = other->health;
+		maxHealth = other->maxHealth;
+		attackPower = other->attackPower;
 	}
 
 
