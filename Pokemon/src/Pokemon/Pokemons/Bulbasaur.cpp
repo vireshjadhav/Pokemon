@@ -13,7 +13,7 @@ namespace N_Pokemon {
 
 		Bulbasaur::~Bulbasaur() {}
 
-		void Bulbasaur::vineWipe(Pokemon* target) {
+		void Bulbasaur::attack(Pokemon* target) {
 			cout << name << " uses vine whip on " << target->getName() << "!" << endl;
 			target->takeDamage(20);
 		}

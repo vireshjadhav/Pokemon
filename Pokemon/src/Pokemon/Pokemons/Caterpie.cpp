@@ -13,7 +13,7 @@ namespace N_Pokemon {
 
 		Caterpie::~Caterpie() {}
 
-		void Caterpie::Bugbite(Pokemon* target)
+		void Caterpie::attack(Pokemon* target)
 		{
 			cout << name << "uses bug bite Attack on" << target->getName() << "!" << endl;
 			target->takeDamage(10);

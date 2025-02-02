@@ -14,7 +14,7 @@ namespace N_Pokemon {
 
 		Charmander::~Charmander() {}
 
-		void Charmander::flameThrower(Pokemon* target)
+		void Charmander::attack(Pokemon* target)
 		{
 			cout << name << " uses Flame Thrower on " << target->getName() << "!" << endl;
 			target->takeDamage(20);

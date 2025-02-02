@@ -13,7 +13,7 @@ namespace N_Pokemon {
 
 		Zubat::~Zubat() {}
 
-		void Zubat::superSonic(Pokemon* target)
+		void Zubat::attack(Pokemon* target)
 		{
 			cout << name << "uses Wing Attack on" << target->getName() << "!" << endl;
 			target->takeDamage(20);
