@@ -13,10 +13,10 @@ namespace N_Pokemon {
 		Pikachu::Pikachu() : Pokemon("Pikachu", PokemonType::ELECTRIC, 100, 100, 20) {}
 		
 
-		void Pikachu::thunderShock(Pokemon &target)
+		void Pikachu::attack(Pokemon* target)
 		{
-			cout << name << " uses Thunder Shock on " << target.getName() << "!" << endl;
-			target.takeDamage(20);
+			cout << name << " uses Thunder Shock on " << target->getName() << "!" << endl;
+			target->takeDamage(20);
 		}
 	}
 }

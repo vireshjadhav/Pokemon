@@ -1,11 +1,241 @@
 ﻿  main.cpp
+F:\CPP Projects\Pokemon\Pokemon\include\Character\Player\Player.hpp(13,17): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
+  (compiling source file 'main.cpp')
+      F:\CPP Projects\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(8,11):
+      see declaration of 'N_Pokemon::Pokemon'
+      F:\CPP Projects\Pokemon\Pokemon\include\Character\Player\Player.hpp(13,17):
+      due to following members:
+      F:\CPP Projects\Pokemon\Pokemon\include\Character\Player\Player.hpp(13,17):
+      'void N_Pokemon::Pokemon::attack(N_Pokemon::Pokemon *)': is abstract
+      F:\CPP Projects\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(36,22):
+      see declaration of 'N_Pokemon::Pokemon::attack'
+  
+F:\CPP Projects\Pokemon\Pokemon\main.cpp(19,31): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
+      F:\CPP Projects\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(8,11):
+      see declaration of 'N_Pokemon::Pokemon'
+      F:\CPP Projects\Pokemon\Pokemon\main.cpp(19,31):
+      due to following members:
+      F:\CPP Projects\Pokemon\Pokemon\main.cpp(19,31):
+      'void N_Pokemon::Pokemon::attack(N_Pokemon::Pokemon *)': is abstract
+      F:\CPP Projects\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(36,22):
+      see declaration of 'N_Pokemon::Pokemon::attack'
+  
+F:\CPP Projects\Pokemon\Pokemon\main.cpp(19,38): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
+      F:\CPP Projects\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(8,11):
+      see declaration of 'N_Pokemon::Pokemon'
+      F:\CPP Projects\Pokemon\Pokemon\main.cpp(19,38):
+      due to following members:
+      F:\CPP Projects\Pokemon\Pokemon\main.cpp(19,38):
+      'void N_Pokemon::Pokemon::attack(N_Pokemon::Pokemon *)': is abstract
+      F:\CPP Projects\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(36,22):
+      see declaration of 'N_Pokemon::Pokemon::attack'
+  
+F:\CPP Projects\Pokemon\Pokemon\main.cpp(23,32): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
+      F:\CPP Projects\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(8,11):
+      see declaration of 'N_Pokemon::Pokemon'
+      F:\CPP Projects\Pokemon\Pokemon\main.cpp(23,32):
+      due to following members:
+      F:\CPP Projects\Pokemon\Pokemon\main.cpp(23,32):
+      'void N_Pokemon::Pokemon::attack(N_Pokemon::Pokemon *)': is abstract
+      F:\CPP Projects\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(36,22):
+      see declaration of 'N_Pokemon::Pokemon::attack'
+  
   BattleManager.cpp
+F:\CPP Projects\Pokemon\Pokemon\include\Character\Player\Player.hpp(13,17): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
+  (compiling source file 'src/Battle/BattleManager.cpp')
+      F:\CPP Projects\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(8,11):
+      see declaration of 'N_Pokemon::Pokemon'
+      F:\CPP Projects\Pokemon\Pokemon\include\Character\Player\Player.hpp(13,17):
+      due to following members:
+      F:\CPP Projects\Pokemon\Pokemon\include\Character\Player\Player.hpp(13,17):
+      'void N_Pokemon::Pokemon::attack(N_Pokemon::Pokemon *)': is abstract
+      F:\CPP Projects\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(36,22):
+      see declaration of 'N_Pokemon::Pokemon::attack'
+  
+F:\CPP Projects\Pokemon\Pokemon\src\Battle\BattleManager.cpp(34,31): error C2664: 'void N_Pokemon::Pokemon::attack(N_Pokemon::Pokemon *)': cannot convert argument 1 from 'N_Pokemon::Pokemon' to 'N_Pokemon::Pokemon *'
+      F:\CPP Projects\Pokemon\Pokemon\src\Battle\BattleManager.cpp(34,38):
+      No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      F:\CPP Projects\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(36,22):
+      see declaration of 'N_Pokemon::Pokemon::attack'
+      F:\CPP Projects\Pokemon\Pokemon\src\Battle\BattleManager.cpp(34,31):
+      while trying to match the argument list '(N_Pokemon::Pokemon)'
+  
+F:\CPP Projects\Pokemon\Pokemon\src\Battle\BattleManager.cpp(38,29): error C2664: 'void N_Pokemon::Pokemon::attack(N_Pokemon::Pokemon *)': cannot convert argument 1 from 'N_Pokemon::Pokemon' to 'N_Pokemon::Pokemon *'
+      F:\CPP Projects\Pokemon\Pokemon\src\Battle\BattleManager.cpp(38,36):
+      No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      F:\CPP Projects\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(36,22):
+      see declaration of 'N_Pokemon::Pokemon::attack'
+      F:\CPP Projects\Pokemon\Pokemon\src\Battle\BattleManager.cpp(38,29):
+      while trying to match the argument list '(N_Pokemon::Pokemon)'
+  
   WildEncounterManager.cpp
 F:\CPP Projects\Pokemon\Pokemon\src\Battle\WildEncounterManager.cpp(11,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+F:\CPP Projects\Pokemon\Pokemon\src\Battle\WildEncounterManager.cpp(14,31): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
+      F:\CPP Projects\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(8,11):
+      see declaration of 'N_Pokemon::Pokemon'
+      F:\CPP Projects\Pokemon\Pokemon\src\Battle\WildEncounterManager.cpp(14,31):
+      due to following members:
+      F:\CPP Projects\Pokemon\Pokemon\src\Battle\WildEncounterManager.cpp(14,31):
+      'void N_Pokemon::Pokemon::attack(N_Pokemon::Pokemon *)': is abstract
+      F:\CPP Projects\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(36,22):
+      see declaration of 'N_Pokemon::Pokemon::attack'
+  
   Player.cpp
+F:\CPP Projects\Pokemon\Pokemon\include\Character\Player\Player.hpp(13,17): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
+  (compiling source file 'src/Character/Player/Player.cpp')
+      F:\CPP Projects\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(8,11):
+      see declaration of 'N_Pokemon::Pokemon'
+      F:\CPP Projects\Pokemon\Pokemon\include\Character\Player\Player.hpp(13,17):
+      due to following members:
+      F:\CPP Projects\Pokemon\Pokemon\include\Character\Player\Player.hpp(13,17):
+      'void N_Pokemon::Pokemon::attack(N_Pokemon::Pokemon *)': is abstract
+      F:\CPP Projects\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(36,22):
+      see declaration of 'N_Pokemon::Pokemon::attack'
+  
+F:\CPP Projects\Pokemon\Pokemon\src\Character\Player\Player.cpp(17,25): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
+      F:\CPP Projects\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(8,11):
+      see declaration of 'N_Pokemon::Pokemon'
+      F:\CPP Projects\Pokemon\Pokemon\src\Character\Player\Player.cpp(17,25):
+      due to following members:
+      F:\CPP Projects\Pokemon\Pokemon\src\Character\Player\Player.cpp(17,25):
+      'void N_Pokemon::Pokemon::attack(N_Pokemon::Pokemon *)': is abstract
+      F:\CPP Projects\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(36,22):
+      see declaration of 'N_Pokemon::Pokemon::attack'
+  
+F:\CPP Projects\Pokemon\Pokemon\src\Character\Player\Player.cpp(21,13): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
+      F:\CPP Projects\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(8,11):
+      see declaration of 'N_Pokemon::Pokemon'
+      F:\CPP Projects\Pokemon\Pokemon\src\Character\Player\Player.cpp(21,13):
+      due to following members:
+      F:\CPP Projects\Pokemon\Pokemon\src\Character\Player\Player.cpp(21,13):
+      'void N_Pokemon::Pokemon::attack(N_Pokemon::Pokemon *)': is abstract
+      F:\CPP Projects\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(36,22):
+      see declaration of 'N_Pokemon::Pokemon::attack'
+  
+F:\CPP Projects\Pokemon\Pokemon\src\Character\Player\Player.cpp(35,29): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
+      F:\CPP Projects\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(8,11):
+      see declaration of 'N_Pokemon::Pokemon'
+      F:\CPP Projects\Pokemon\Pokemon\src\Character\Player\Player.cpp(35,29):
+      due to following members:
+      F:\CPP Projects\Pokemon\Pokemon\src\Character\Player\Player.cpp(35,29):
+      'void N_Pokemon::Pokemon::attack(N_Pokemon::Pokemon *)': is abstract
+      F:\CPP Projects\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(36,22):
+      see declaration of 'N_Pokemon::Pokemon::attack'
+  
+F:\CPP Projects\Pokemon\Pokemon\src\Character\Player\Player.cpp(38,29): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
+      F:\CPP Projects\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(8,11):
+      see declaration of 'N_Pokemon::Pokemon'
+      F:\CPP Projects\Pokemon\Pokemon\src\Character\Player\Player.cpp(38,29):
+      due to following members:
+      F:\CPP Projects\Pokemon\Pokemon\src\Character\Player\Player.cpp(38,29):
+      'void N_Pokemon::Pokemon::attack(N_Pokemon::Pokemon *)': is abstract
+      F:\CPP Projects\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(36,22):
+      see declaration of 'N_Pokemon::Pokemon::attack'
+  
+F:\CPP Projects\Pokemon\Pokemon\src\Character\Player\Player.cpp(41,29): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
+      F:\CPP Projects\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(8,11):
+      see declaration of 'N_Pokemon::Pokemon'
+      F:\CPP Projects\Pokemon\Pokemon\src\Character\Player\Player.cpp(41,29):
+      due to following members:
+      F:\CPP Projects\Pokemon\Pokemon\src\Character\Player\Player.cpp(41,29):
+      'void N_Pokemon::Pokemon::attack(N_Pokemon::Pokemon *)': is abstract
+      F:\CPP Projects\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(36,22):
+      see declaration of 'N_Pokemon::Pokemon::attack'
+  
+F:\CPP Projects\Pokemon\Pokemon\src\Character\Player\Player.cpp(44,29): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
+      F:\CPP Projects\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(8,11):
+      see declaration of 'N_Pokemon::Pokemon'
+      F:\CPP Projects\Pokemon\Pokemon\src\Character\Player\Player.cpp(44,29):
+      due to following members:
+      F:\CPP Projects\Pokemon\Pokemon\src\Character\Player\Player.cpp(44,29):
+      'void N_Pokemon::Pokemon::attack(N_Pokemon::Pokemon *)': is abstract
+      F:\CPP Projects\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(36,22):
+      see declaration of 'N_Pokemon::Pokemon::attack'
+  
   ProfessorOak.cpp
+F:\CPP Projects\Pokemon\Pokemon\include\Character\Player\Player.hpp(13,17): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
+  (compiling source file 'src/Character/ProfessorOak.cpp')
+      F:\CPP Projects\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(8,11):
+      see declaration of 'N_Pokemon::Pokemon'
+      F:\CPP Projects\Pokemon\Pokemon\include\Character\Player\Player.hpp(13,17):
+      due to following members:
+      F:\CPP Projects\Pokemon\Pokemon\include\Character\Player\Player.hpp(13,17):
+      'void N_Pokemon::Pokemon::attack(N_Pokemon::Pokemon *)': is abstract
+      F:\CPP Projects\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(36,22):
+      see declaration of 'N_Pokemon::Pokemon::attack'
+  
   Game.cpp
-F:\CPP Projects\Pokemon\Pokemon\src\Main\Game.cpp(33,23): warning C4101: 'battleManager': unreferenced local variable
+F:\CPP Projects\Pokemon\Pokemon\include\Character\Player\Player.hpp(13,17): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
+  (compiling source file 'src/Main/Game.cpp')
+      F:\CPP Projects\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(8,11):
+      see declaration of 'N_Pokemon::Pokemon'
+      F:\CPP Projects\Pokemon\Pokemon\include\Character\Player\Player.hpp(13,17):
+      due to following members:
+      F:\CPP Projects\Pokemon\Pokemon\include\Character\Player\Player.hpp(13,17):
+      'void N_Pokemon::Pokemon::attack(N_Pokemon::Pokemon *)': is abstract
+      F:\CPP Projects\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(36,22):
+      see declaration of 'N_Pokemon::Pokemon::attack'
+  
+F:\CPP Projects\Pokemon\Pokemon\src\Main\Game.cpp(22,13): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
+      F:\CPP Projects\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(8,11):
+      see declaration of 'N_Pokemon::Pokemon'
+      F:\CPP Projects\Pokemon\Pokemon\src\Main\Game.cpp(22,13):
+      due to following members:
+      F:\CPP Projects\Pokemon\Pokemon\src\Main\Game.cpp(22,13):
+      'void N_Pokemon::Pokemon::attack(N_Pokemon::Pokemon *)': is abstract
+      F:\CPP Projects\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(36,22):
+      see declaration of 'N_Pokemon::Pokemon::attack'
+  
+F:\CPP Projects\Pokemon\Pokemon\src\Main\Game.cpp(23,12): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
+      F:\CPP Projects\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(8,11):
+      see declaration of 'N_Pokemon::Pokemon'
+      F:\CPP Projects\Pokemon\Pokemon\src\Main\Game.cpp(23,12):
+      due to following members:
+      F:\CPP Projects\Pokemon\Pokemon\src\Main\Game.cpp(23,12):
+      'void N_Pokemon::Pokemon::attack(N_Pokemon::Pokemon *)': is abstract
+      F:\CPP Projects\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(36,22):
+      see declaration of 'N_Pokemon::Pokemon::attack'
+  
+F:\CPP Projects\Pokemon\Pokemon\src\Main\Game.cpp(24,12): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
+      F:\CPP Projects\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(8,11):
+      see declaration of 'N_Pokemon::Pokemon'
+      F:\CPP Projects\Pokemon\Pokemon\src\Main\Game.cpp(24,12):
+      due to following members:
+      F:\CPP Projects\Pokemon\Pokemon\src\Main\Game.cpp(24,12):
+      'void N_Pokemon::Pokemon::attack(N_Pokemon::Pokemon *)': is abstract
+      F:\CPP Projects\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(36,22):
+      see declaration of 'N_Pokemon::Pokemon::attack'
+  
+F:\CPP Projects\Pokemon\Pokemon\src\Main\Game.cpp(68,25): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
+      F:\CPP Projects\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(8,11):
+      see declaration of 'N_Pokemon::Pokemon'
+      F:\CPP Projects\Pokemon\Pokemon\src\Main\Game.cpp(68,25):
+      due to following members:
+      F:\CPP Projects\Pokemon\Pokemon\src\Main\Game.cpp(68,25):
+      'void N_Pokemon::Pokemon::attack(N_Pokemon::Pokemon *)': is abstract
+      F:\CPP Projects\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(36,22):
+      see declaration of 'N_Pokemon::Pokemon::attack'
+  
+F:\CPP Projects\Pokemon\Pokemon\src\Main\Game.cpp(68,63): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
+      F:\CPP Projects\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(8,11):
+      see declaration of 'N_Pokemon::Pokemon'
+      F:\CPP Projects\Pokemon\Pokemon\src\Main\Game.cpp(68,63):
+      due to following members:
+      F:\CPP Projects\Pokemon\Pokemon\src\Main\Game.cpp(68,63):
+      'void N_Pokemon::Pokemon::attack(N_Pokemon::Pokemon *)': is abstract
+      F:\CPP Projects\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(36,22):
+      see declaration of 'N_Pokemon::Pokemon::attack'
+  
+F:\CPP Projects\Pokemon\Pokemon\src\Main\Game.cpp(68,44): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
+      F:\CPP Projects\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(8,11):
+      see declaration of 'N_Pokemon::Pokemon'
+      F:\CPP Projects\Pokemon\Pokemon\src\Main\Game.cpp(68,44):
+      due to following members:
+      F:\CPP Projects\Pokemon\Pokemon\src\Main\Game.cpp(68,44):
+      'void N_Pokemon::Pokemon::attack(N_Pokemon::Pokemon *)': is abstract
+      F:\CPP Projects\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(36,22):
+      see declaration of 'N_Pokemon::Pokemon::attack'
+  
   Pokemon.cpp
   Bulbasaur.cpp
   Caterpie.cpp
@@ -16,4 +246,3 @@ F:\CPP Projects\Pokemon\Pokemon\src\Main\Game.cpp(33,23): warning C4101: 'battle
   Zubat.cpp
   Utility.cpp
   Generating Code...
-  Pokemon.vcxproj -> F:\CPP Projects\Pokemon\Pokemon\x64\Debug\Pokemon.exe

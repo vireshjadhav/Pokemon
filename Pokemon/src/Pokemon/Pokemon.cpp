@@ -13,6 +13,8 @@ namespace N_Pokemon {
 		name = "Unknown";
 		type = PokemonType::NORMAL;
 		health = 50;
+		maxHealth = 100;
+		attackPower = 22;
 	}
 
 	//Parameterized constructor
@@ -37,18 +39,7 @@ namespace N_Pokemon {
 
 
 	//Destructor
-	Pokemon::~Pokemon()
-	{
-	}
-
-
-	// Function to demonstrate attack
-	void Pokemon::attack(Pokemon& target)
-	{
-		int damage = attackPower; //Use attack Power for damage calculation
-		cout << name << " attacks " << target.name << " for " << damage << " damage!" << endl;
-		target.takeDamage(attackPower);
-	}
+	Pokemon::~Pokemon() {}
 
 	void Pokemon::takeDamage(int damage)
 	{
