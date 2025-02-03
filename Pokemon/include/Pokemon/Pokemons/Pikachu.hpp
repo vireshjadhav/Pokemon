@@ -13,7 +13,7 @@ namespace N_Pokemon {
 			~Pikachu();
 
 		private:
-			void attack(Pokemon* target)override;
+			void attack(Move selectedMove, Pokemon* target)override;
 		};
 
 	}

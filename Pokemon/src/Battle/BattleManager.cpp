@@ -37,11 +37,11 @@ void BattleManager::battle(Pokemon* playerPokemon, Pokemon* wildPokemon, Player*
 	{
 		if (battleState->playerTurn)
 		{
-			battleState->playerPokemon->attack(battleState->wildPokemon);
+			battleState->playerPokemon->selectAndUseMove(battleState->wildPokemon);
 		}
 		else
 		{
-			battleState->wildPokemon->attack(battleState->playerPokemon);
+			battleState->wildPokemon->selectAndUseMove(battleState->playerPokemon);
 		}
 
 		updateBattleState();

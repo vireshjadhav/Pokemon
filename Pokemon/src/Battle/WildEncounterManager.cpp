@@ -8,7 +8,7 @@ using namespace N_Pokemon;
 using namespace N_Battle;
 
 WildEncounterManager::WildEncounterManager() {
-	srand(time(0));
+	srand(static_cast<unsigned int>(time (0)));
 }
 
 Pokemon* WildEncounterManager::getRandomPokemonFromGrass(const Grass* grass)

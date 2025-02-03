@@ -11,7 +11,7 @@ namespace N_Pokemon {
 			~Squirtle();
 
 		private:
-			void attack(Pokemon* target)override;
+			void attack(Move selectedMove, Pokemon* target)override;
 		};
 	}
 }

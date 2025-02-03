@@ -4,6 +4,7 @@
 #include "../../../include/Pokemon/Pokemon.hpp"
 #include "../../../include/Pokemon/PokemonType.hpp"
 #include "../../../include/Pokemon/Pokemons/Pidgey.hpp"
+#include "../../../include/Pokemon/Move.hpp"
 #include "../../../include/Utility/Utility.hpp"
 using namespace N_Utility;
 using namespace N_Pokemon;
@@ -13,26 +14,27 @@ namespace N_Pokemon {
 
 		using namespace std;
 
-		Pidgey::Pidgey() : Pokemon("Pidgey", PokemonType::NORMAL, 100, 100, 35) {};
+		Pidgey::Pidgey() : Pokemon("Pidgey", PokemonType::NORMAL, 100, 100, 35, { Move("GUST", 15), Move("TACKLE", 10) }) {};
 
 		Pidgey::~Pidgey() {}
 
-		void Pidgey::attack(Pokemon* target)
-		{
-			std::cout << name << " soared into the sky and executed a GUST attack!" << std::endl;
-			N_Utility::Utility::waitForEnter();
+        void Pidgey::attack(Move selectedMove, Pokemon* target) 
+        {
+            Pokemon::attack(selectedMove, target);
 
-			std::cout << "A fierce windstorm engulfs the battlefield..." << std::endl;
-			N_Utility::Utility::waitForEnter();
-
-			target->takeDamage(attackPower);
-
-			if (target->isFainted())
-				std::cout << target->getName() << " was blown away and fainted!" << std::endl;
-			else
-				std::cout << target->getName() << " struggles against the wind, with " << target->getHealth() << " HP left." << std::endl;
-			N_Utility::Utility::waitForEnter();
-		}
+            if (selectedMove.name == "GUST")
+            {
+                // 20% chance to blow the opponent away
+                if (rand() % 100 < 20)
+                {
+                    std::cout << "... and blew the opponent away!\n";
+                    
+                    N_Battle::BattleManager::stopBattle();
+                    
+                    N_Utility::Utility::waitForEnter();
+                }
+            }
+        }
 
 	}
 }
