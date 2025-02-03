@@ -32,3 +32,10 @@
 *.app
 
 *.vs
+Pokemon/.vs/Pokemon/v17/.suo
+*.db
+Pokemon/Pokemon/x64/Debug/Pokemon.Build.CppClean.log
+*.recipe
+*.tlog
+*.idb
+*.json

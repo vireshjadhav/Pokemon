@@ -3,7 +3,9 @@
 #include "../../../include/Pokemon/Pokemon.hpp"
 #include "../../../include/Pokemon/PokemonType.hpp"
 #include "../../../include/Pokemon/Pokemons/Caterpie.hpp"
+#include "../../../include/Utility/Utility.hpp"
 using namespace N_Pokemon;
+using namespace N_Utility;
 
 namespace N_Pokemon {
 	namespace N_Pokemons {
@@ -15,8 +17,16 @@ namespace N_Pokemon {
 
 		void Caterpie::attack(Pokemon* target)
 		{
-			cout << name << "uses bug bite Attack on" << target->getName() << "!" << endl;
-			target->takeDamage(10);
+			std::cout << name << " used STRING SHOT to entangle the opponent!" << std::endl;
+			N_Utility::Utility::waitForEnter();
+
+			std::cout << "Sticky threads envelop the target, slowing it down..." << std::endl;
+			N_Utility::Utility::waitForEnter();
+
+			target->takeDamage(attackPower);
+
+			std::cout << target->getName() << "'s speed sharply decreased!" << std::endl;
+			N_Utility::Utility::waitForEnter();
 		}
 	}
 }
