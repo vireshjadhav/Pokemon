@@ -61,3 +61,6 @@ Pokemon/Pokemon/x64/Debug/Pokemon.ilk
 *.lastbuildstate
 *.idb
 *.db-wal
+*.db
+*.db-shm
+*.db-wal
