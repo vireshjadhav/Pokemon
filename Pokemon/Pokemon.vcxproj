@@ -197,6 +197,7 @@
     <ClInclude Include="include\Pokemon\Pokemons\Zubat.hpp" />
     <ClInclude Include="include\Pokemon\PokemonType.hpp" />
     <ClInclude Include="include\StatusEffects\ParalyzedEffect.hpp" />
+    <ClInclude Include="include\StatusEffects\StatusEffectType.hpp" />
     <ClInclude Include="include\Utility\Utility.hpp" />
     <ClInclude Include="include\StatusEffects\IStatusEffect.hpp" />
   </ItemGroup>

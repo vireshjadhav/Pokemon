@@ -128,5 +128,8 @@
     <ClInclude Include="include\StatusEffects\ParalyzedEffect.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="include\StatusEffects\StatusEffectType.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -3,6 +3,7 @@
 #include "../../include/Pokemon/PokemonType.hpp"
 #include "../../include/Pokemon/Move.hpp"
 #include "../../include/Utility/Utility.hpp"
+#include "../../include/StatusEffects/ParalyzedEffect.hpp"
 #include <iostream>
 using namespace std;
 using namespace N_Pokemon;
@@ -16,6 +17,8 @@ namespace N_Pokemon {
 		name = "Unknown";
 		type = PokemonType::NORMAL;
 		health = 50;
+		maxHealth = 50;
+		attackPower = 15;
 	}
 
 	//Parameterized constructor
@@ -27,6 +30,7 @@ namespace N_Pokemon {
 		maxHealth = p_maxHealth;
 		attackPower = p_attackPower;
 		moves = p_moves;
+		appliedEffect = nullptr;
 	}
 
 	//Copy constructor
@@ -97,6 +101,38 @@ namespace N_Pokemon {
 			if (moves[i].power < 0)
 				moves[i].power = 0;
 		}
+	}
+
+
+	bool Pokemon::canAttack()
+	{
+		if (appliedEffect == nullptr)
+			return true;
+		else
+			return appliedEffect->turnEndEffect(this);
+	}
+
+	bool Pokemon::canApplyEffect()
+	{
+		return appliedEffect == nullptr;
+	}
+
+	void Pokemon::applyEffect(StatusEffectType effectToApply)
+	{
+		switch (effectToApply)
+		{
+		case StatusEffectType::PARALYZED:
+			appliedEffect = new ParalyzedEffect();
+			appliedEffect->applyEffect(this);
+			break;
+		default:
+			appliedEffect = nullptr;
+		}
+	}
+
+	void Pokemon::clearEffect()
+	{
+		appliedEffect = nullptr;
 	}
 
 

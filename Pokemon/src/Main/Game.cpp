@@ -84,7 +84,7 @@ namespace N_Main
                 break;
             case 5:
                 cout << "You try to quit, but Professor Oak's voice echoes: 'There's no quitting in Pokemon training!" << endl;
-                cout << "Are you sure you want to quit? (Y / n)";
+                cout << "Are you sure you want to quit? (Y / N)";
 
                 char quitChoice;
                 cin >> quitChoice;

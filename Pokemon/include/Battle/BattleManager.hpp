@@ -1,7 +1,7 @@
 #pragma once
 
-#include "../../include/Battle/BattleState.hpp"
-#include "../../include/Character/Player/Player.hpp"
+#include "../Battle/BattleState.hpp"
+#include "../Character/Player/Player.hpp"
 
 
 
@@ -26,5 +26,4 @@ namespace N_Battle
 		void handleBattleOutcome(); //Functio to decide what to afte battle
 		void updateBattleState();
 	};
-
 }
