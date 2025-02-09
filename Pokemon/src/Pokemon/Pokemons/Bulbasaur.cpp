@@ -30,7 +30,7 @@ namespace N_Pokemon {
 					cout << name << " hits again wiht a second " << selectedMove.name << "!" << endl;
 				}
 				else
-					cout << target->getName() << " dedged the second his!" << endl;
+					cout << target->name << " dedged the second his!" << endl;
 			}
 		}
 	}

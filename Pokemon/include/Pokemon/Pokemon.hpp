@@ -9,7 +9,7 @@ namespace N_Pokemon{
 
     class Pokemon
     {
-    protected:
+    public:
         //Atributes
         string name;
         PokemonType type;
@@ -17,20 +17,6 @@ namespace N_Pokemon{
         int maxHealth;
         int attackPower;
         vector <Move> moves;
-
-
-
-    public:
-        void setHealth(int h) { health = h; }
-        int getHealth() { return health; }
-        void setMaxHealth(int mH) { maxHealth = mH; }
-        int getMaxHealth() { return maxHealth; }
-        void setAttackPower(int aP) { attackPower = aP; }
-        int getAttackPower() { return attackPower; }
-        void setName(string nM) { name = nM; }
-        string getName() { return name; }
-        void settype(PokemonType tY) { type = tY; }
-        PokemonType gettype() { return type; }
 
         Pokemon(); //default constructor 
         Pokemon(string p_name, PokemonType P_type, int p_heath, int p_maxHealth, int p_attackPower, vector <Move> p_moves); //parameterized constructor
@@ -48,6 +34,9 @@ namespace N_Pokemon{
 
         void selectAndUseMove(Pokemon* target);
 
+        void reduceAttackPower(int reduced_Damage);
+
+    protected:
         void printAvailableMoves();
 
         int selectMove();

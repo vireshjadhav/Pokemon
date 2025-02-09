@@ -1,18 +1,17 @@
 //Pidgey.cpp
 
 #include <iostream>
-#include "../../../include/Pokemon/Pokemon.hpp"
 #include "../../../include/Pokemon/PokemonType.hpp"
 #include "../../../include/Pokemon/Pokemons/Pidgey.hpp"
 #include "../../../include/Pokemon/Move.hpp"
+#include "../../../include/Battle/BattleManager.hpp"
 #include "../../../include/Utility/Utility.hpp"
-using namespace N_Utility;
-using namespace N_Pokemon;
 
 namespace N_Pokemon {
 	namespace N_Pokemons {
 
 		using namespace std;
+        using namespace N_Utility;
 
 		Pidgey::Pidgey() : Pokemon("Pidgey", PokemonType::NORMAL, 100, 100, 35, { Move("GUST", 15), Move("TACKLE", 10) }) {};
 

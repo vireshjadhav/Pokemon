@@ -1,36 +1,29 @@
 //Game.cpp
 #include "../../include/Main/Game.hpp"
 #include "../../include/Character/Player/Player.hpp"
-#include "../../include/Pokemon/PokemonType.hpp"
 #include "../../include/Battle/WildEncounterManager.hpp"
 #include "../../include/Battle/BattleManager.hpp"
 #include "../../include/Utility/Utility.hpp" 
-#include "../../include/Pokemon/grass.hpp"
 #include "../../include/Pokemon/Pokemons/Zubat.hpp"
 #include "../../include/Pokemon/Pokemons/Caterpie.hpp"
 #include "../../include/Pokemon/Pokemons/Pidgey.hpp"
-
 #include <iostream>
-using namespace std;
-using namespace N_Utility;
-using namespace N_Pokemon;
-using namespace N_Pokemons;
-using namespace N_Battle;
-using namespace N_Player;
 
 
 
-namespace N_Main {
-    Game::Game()
-    {
-        forestGrass = new Grass{ "Forest" };
-        
-                forestGrass->wildPokemonList.push_back(new Zubat()),
-                forestGrass->wildPokemonList.push_back(new Caterpie()),
-                forestGrass->wildPokemonList.push_back(new Pidgey());
 
-        
-        80;
+namespace N_Main 
+{
+    using namespace std;
+    using namespace N_Utility;
+    using namespace N_Pokemon;
+    using namespace N_Pokemons;
+    using namespace N_Battle;
+    using namespace N_Character::N_Player;
+
+    Game::Game() {
+        // Create a sample grass environment with actual Pokemon objects
+        forestGrass = { "Forest", {new Pidgey(), new Caterpie(), new Zubat()}, 70 };
     }
 
     Game::~Game() 
@@ -40,9 +33,10 @@ namespace N_Main {
 
     void Game::gameLoop(Player* player)
     {
-        BattleManager battleManager;
         int choice;
         bool keepPlaying = true;
+        BattleManager* battleManager = new BattleManager();
+        WildEncounterManager* encounterManager = new WildEncounterManager();
 
         while (keepPlaying)
         {
@@ -74,16 +68,13 @@ namespace N_Main {
             {
             case 1:
             {
-                WildEncounterManager encounterManager;
-                Pokemon* encounteredPokemon = encounterManager.getRandomPokemonFromGrass(forestGrass);
-                cout << "A Wild " << encounteredPokemon->getName() << " appeared!" << endl;
+                wildPokemon = encounterManager->getRandomPokemonFromGrass(forestGrass);
+                battleManager->startBattle(player, wildPokemon);
                 break;
             }
             case 2:
             {
-                cout << "You head to the PokeCenter." << endl;
-                player->chosenPokemon->heal();
-                cout << player->chosenPokemon->getName()<< "'s health is fully restored!" << endl;
+                visitPokeCenter(player);
                 break;
             }
             case 3:
@@ -113,5 +104,25 @@ namespace N_Main {
         }
 
         cout << "Goodbye, " << player->name << "! Thanks for playing!" << endl;
+    }
+
+    void Game::visitPokeCenter(Player* player) 
+    {
+        if (player->chosenPokemon->health == player->chosenPokemon->maxHealth) 
+        {
+            std::cout << "Your Pokémon is already at full health!" << endl;
+        }
+        else 
+        {
+            std::cout << "You head to the PokeCenter." << endl;
+            
+            std::cout << "Healing your Pokémon..." << endl;
+
+            Utility::waitForEnter(); 
+
+            player->chosenPokemon->heal();        // Heal the player's Pokémon
+
+            std::cout << player->chosenPokemon->name << "'s health is fully restored!\n";
+        }
     }
 }

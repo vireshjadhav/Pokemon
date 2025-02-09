@@ -1,8 +1,12 @@
 #pragma once
 #include "../../include/Pokemon/Pokemon.hpp"
-using namespace N_Pokemon;
 
-namespace N_Battle {
+namespace N_Battle 
+{
+	class Pokemon;
+	using namespace N_Character::N_Player;
+
+
 	struct BattleState
 	{
 		Pokemon* playerPokemon;

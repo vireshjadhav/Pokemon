@@ -1,14 +1,14 @@
 //grass.hpp
 #pragma once
-
 #include <vector>
 #include <string>
 #include "../../include/Pokemon/Pokemon.hpp"
-using namespace std;
-using namespace N_Pokemon;
 
+namespace N_Pokemon 
+{
+	using namespace std;
+	using namespace N_Pokemon;
 
-namespace N_Pokemon {
 	struct Grass
 	{
 		string environmentType;  //Example: "Forest", "Cave", "Riverbank"

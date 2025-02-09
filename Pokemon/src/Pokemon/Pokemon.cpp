@@ -89,6 +89,17 @@ namespace N_Pokemon {
 		useMove(selectedMove, target);
 	}
 
+	void Pokemon::reduceAttackPower(int reduced_Damage)
+	{
+		for (int i = 0; i < moves.size(); i++)
+		{
+			moves[i].power -= reduced_Damage;
+			if (moves[i].power < 0)
+				moves[i].power = 0;
+		}
+	}
+
+
 	int Pokemon::selectMove()
 	{
 		int choice;

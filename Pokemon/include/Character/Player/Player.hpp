@@ -1,22 +1,26 @@
 #pragma once
 #include <string>
 #include "../../Pokemon/Pokemon.hpp"
-using namespace std;
-using namespace N_Pokemon;
 
-namespace N_Player {
-
-    class Player
+namespace N_Character
+{
+    namespace N_Player 
     {
-    public:
-        string name;
-        Pokemon* chosenPokemon;
+        using namespace std;
+        using namespace N_Pokemon;
 
-        Player(); //default constructor
-        Player(string p_name); //parameterized constructor
+        class Player
+        {
+        public:
+            string name;
+            N_Pokemon::Pokemon* chosenPokemon;
 
-        void choosePokemon(int choice); // method to choose pokemon
+            Player(); //default constructor
+            Player(string p_name); //parameterized constructor
 
-        ~Player();
-    };
+            void choosePokemon(int choice); // method to choose pokemon
+
+            ~Player();
+        };
+    }
 }

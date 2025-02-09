@@ -1,20 +1,54 @@
 ﻿  main.cpp
   BattleManager.cpp
+F:\CPP Projects\Pokemon\Pokemon\src\Battle\BattleManager.cpp(24,37): error C2440: '=': cannot convert from 'N_Pokemon::Pokemon *' to 'N_Battle::Pokemon *'
+      F:\CPP Projects\Pokemon\Pokemon\src\Battle\BattleManager.cpp(24,37):
+      Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  
+F:\CPP Projects\Pokemon\Pokemon\src\Battle\BattleManager.cpp(25,29): error C2440: '=': cannot convert from 'N_Pokemon::Pokemon *' to 'N_Battle::Pokemon *'
+      F:\CPP Projects\Pokemon\Pokemon\src\Battle\BattleManager.cpp(25,29):
+      Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  
+F:\CPP Projects\Pokemon\Pokemon\src\Battle\BattleManager.cpp(44,16): error C2027: use of undefined type 'N_Battle::Pokemon'
+      F:\CPP Projects\Pokemon\Pokemon\include\Battle\BattleState.hpp(6,8):
+      see declaration of 'N_Battle::Pokemon'
+  
+F:\CPP Projects\Pokemon\Pokemon\src\Battle\BattleManager.cpp(48,16): error C2027: use of undefined type 'N_Battle::Pokemon'
+      F:\CPP Projects\Pokemon\Pokemon\include\Battle\BattleState.hpp(6,8):
+      see declaration of 'N_Battle::Pokemon'
+  
+F:\CPP Projects\Pokemon\Pokemon\src\Battle\BattleManager.cpp(63,18): error C2027: use of undefined type 'N_Battle::Pokemon'
+      F:\CPP Projects\Pokemon\Pokemon\include\Battle\BattleState.hpp(6,8):
+      see declaration of 'N_Battle::Pokemon'
+  
+F:\CPP Projects\Pokemon\Pokemon\src\Battle\BattleManager.cpp(67,23): error C2027: use of undefined type 'N_Battle::Pokemon'
+      F:\CPP Projects\Pokemon\Pokemon\include\Battle\BattleState.hpp(6,8):
+      see declaration of 'N_Battle::Pokemon'
+  
+F:\CPP Projects\Pokemon\Pokemon\src\Battle\BattleManager.cpp(75,18): error C2027: use of undefined type 'N_Battle::Pokemon'
+      F:\CPP Projects\Pokemon\Pokemon\include\Battle\BattleState.hpp(6,8):
+      see declaration of 'N_Battle::Pokemon'
+  
+F:\CPP Projects\Pokemon\Pokemon\src\Battle\BattleManager.cpp(77,23): error C2027: use of undefined type 'N_Battle::Pokemon'
+      F:\CPP Projects\Pokemon\Pokemon\include\Battle\BattleState.hpp(6,8):
+      see declaration of 'N_Battle::Pokemon'
+  
+F:\CPP Projects\Pokemon\Pokemon\src\Battle\BattleManager.cpp(81,51): error C2027: use of undefined type 'N_Battle::Pokemon'
+      F:\CPP Projects\Pokemon\Pokemon\include\Battle\BattleState.hpp(6,8):
+      see declaration of 'N_Battle::Pokemon'
+  
   WildEncounterManager.cpp
   Player.cpp
   ProfessorOak.cpp
   Game.cpp
+F:\CPP Projects\Pokemon\Pokemon\src\Main\Game.cpp(26,23): error C2440: '=': cannot convert from 'initializer list' to 'N_Pokemon::Grass *'
+      F:\CPP Projects\Pokemon\Pokemon\src\Main\Game.cpp(26,23):
+      The initializer contains too many elements
+  
   Pokemon.cpp
   Bulbasaur.cpp
   Caterpie.cpp
-F:\CPP Projects\Pokemon\Pokemon\src\Pokemon\Pokemons\Caterpie.cpp(29,25): error C2039: 'reduceAttackPower': is not a member of 'N_Pokemon::Pokemon'
-      F:\CPP Projects\Pokemon\Pokemon\include\Pokemon\Pokemon.hpp(10,11):
-      see declaration of 'N_Pokemon::Pokemon'
-  
   Charmander.cpp
   Pidgey.cpp
-F:\CPP Projects\Pokemon\Pokemon\src\Pokemon\Pokemons\Pidgey.cpp(32,21): error C2653: 'N_Battle': is not a class or namespace name
-F:\CPP Projects\Pokemon\Pokemon\src\Pokemon\Pokemons\Pidgey.cpp(32,46): error C3861: 'stopBattle': identifier not found
   Pikachu.cpp
   Squirtle.cpp
   Zubat.cpp

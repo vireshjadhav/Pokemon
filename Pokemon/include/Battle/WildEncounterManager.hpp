@@ -3,9 +3,11 @@
 #include <vector>
 #include "../../include/Pokemon/Pokemon.hpp"
 #include "../../include/Pokemon/grass.hpp"
-using namespace N_Pokemon;
 
-namespace N_Battle {
+
+namespace N_Battle 
+{
+	using namespace N_Pokemon;
 	class WildEncounterManager
 	{
 	public:
