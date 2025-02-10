@@ -7,13 +7,25 @@ namespace N_Pokemon{
 
     class Pokemon
     {
-    public:
+    protected:
         //Atributes
         string name;
         PokemonType type;
         int health;
         int maxHealth;
         int attackPower;
+
+    public:
+        void setHealth(int h) { health = h; }
+        int getHealth() { return health; }
+        void setMaxHealth(int mH) { maxHealth = mH; }
+        int getMaxHealth() { return maxHealth; }
+        void setAttackPower(int aP) { attackPower = aP; }
+        int getAttackPower() { return attackPower; }
+        void setName(string nM) { name = nM; }
+        string getName() { return name; }
+        void settype(PokemonType tY) { type = tY; }
+        PokemonType gettype() { return type; }
 
         Pokemon(); //default constructor 
         Pokemon(string p_name, PokemonType P_type, int p_heath, int p_maxHealth, int p_attackPower); //parameterized constructor
