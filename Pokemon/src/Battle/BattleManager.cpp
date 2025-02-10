@@ -1,9 +1,9 @@
 #include <iostream>
 #include "../../include/Battle/BattleManager.hpp"
-#include "../../include/Pokemon/grass.hpp"
+
 #include "../../include/Character/Player/Player.hpp"
 #include "../../include/Utility/Utility.hpp"
-#include "../../include/Pokemon/Pokemon.hpp"
+
 
 
 namespace N_Battle 
@@ -12,12 +12,7 @@ namespace N_Battle
 	using namespace std;
 	using namespace N_Utility;
 
-
 	BattleState BattleManager::battleState;
-
-	BattleManager::BattleManager() {}
-
-	BattleManager::~BattleManager() {}
 
 	void BattleManager::startBattle(Player* player, N_Pokemon::Pokemon* wildPokemon)
 	{
@@ -32,7 +27,7 @@ namespace N_Battle
 
 	void BattleManager::stopBattle() 
 	{ 
-		battleState.battleOngoing = false; 
+		battleState.battleOngoing = false;
 	}
 
 	void BattleManager::battle()

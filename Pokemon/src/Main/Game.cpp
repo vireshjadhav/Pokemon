@@ -16,8 +16,7 @@ namespace N_Main
 {
     using namespace std;
     using namespace N_Utility;
-    using namespace N_Pokemon;
-    using namespace N_Pokemons;
+    using namespace N_Pokemon::N_Pokemons;
     using namespace N_Battle;
     using namespace N_Character::N_Player;
 

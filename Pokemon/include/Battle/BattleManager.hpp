@@ -1,22 +1,20 @@
 #pragma once
-#include "../../include/Character/Player/Player.hpp"
-#include "../../include/Battle/BattleState.hpp"
-#include "../../include/Pokemon/Pokemon.hpp"
 
-using namespace N_Battle;
+#include "../../include/Battle/BattleState.hpp"
+#include "../../include/Character/Player/Player.hpp"
+
 
 
 
 namespace N_Battle
 {
 	using namespace N_Character::N_Player;
+	class Pokemon;
 	using namespace N_Pokemon;
 
 	class BattleManager
 	{
 	public:
-		BattleManager();
-		~BattleManager();
 
 		void startBattle(Player* player, N_Pokemon::Pokemon* pokemon); //Function to start the battle
 		static void stopBattle();

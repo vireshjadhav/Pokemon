@@ -3,9 +3,7 @@
 
 namespace N_Battle 
 {
-	class Pokemon;
-	using namespace N_Character::N_Player;
-
+	using namespace N_Pokemon;
 
 	struct BattleState
 	{

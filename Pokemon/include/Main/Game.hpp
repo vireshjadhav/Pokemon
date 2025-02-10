@@ -10,8 +10,8 @@ namespace N_Main {
 	class Game
 	{
 	private:
-		Grass* forestGrass;
-		N_Pokemon::Pokemon* wildPokemon;
+		Grass forestGrass;
+		Pokemon* wildPokemon;
 
 	public:
 		Game();
