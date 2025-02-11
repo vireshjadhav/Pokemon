@@ -1,18 +1,21 @@
 //WildEncounterManager.cpp
-
 #include "../../include/Battle/WildEncounterManager.hpp"
 #include "../../include/Pokemon/grass.hpp"
+#include "../../include/Pokemon/Pokemon.hpp"
 #include <cstdlib>
 #include <ctime>
-using namespace N_Pokemon;
-using namespace N_Battle;
 
-WildEncounterManager::WildEncounterManager() {
-	srand(time(0));
-}
 
-Pokemon* WildEncounterManager::getRandomPokemonFromGrass(const Grass* grass)
+namespace N_Battle
 {
-	int rondomIndex = rand() % grass->wildPokemonList.size();
-	return grass->wildPokemonList[rondomIndex];
+	using namespace N_Pokemon;
+	WildEncounterManager::WildEncounterManager() {
+		srand(static_cast<unsigned int>(time(0)));
+	}
+
+	Pokemon* WildEncounterManager::getRandomPokemonFromGrass(const Grass &grass)
+	{
+		int rondomIndex = rand() % grass.wildPokemonList.size();
+		return grass.wildPokemonList[rondomIndex];
+	}
 }

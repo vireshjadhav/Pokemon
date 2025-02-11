@@ -1,8 +1,10 @@
 #pragma once
 #include "../../include/Pokemon/Pokemon.hpp"
-using namespace N_Pokemon;
 
-namespace N_Battle {
+namespace N_Battle 
+{
+	using namespace N_Pokemon;
+
 	struct BattleState
 	{
 		Pokemon* playerPokemon;

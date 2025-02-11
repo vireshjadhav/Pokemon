@@ -1,26 +1,29 @@
 #pragma once
-#include "../../include/Character/Player/Player.hpp"
+
 #include "../../include/Battle/BattleState.hpp"
-using namespace N_Player;
-using namespace N_Battle;
+#include "../../include/Character/Player/Player.hpp"
 
 
 
-namespace N_Battle {
+
+namespace N_Battle
+{
+	using namespace N_Character::N_Player;
+	class Pokemon;
+	using namespace N_Pokemon;
 
 	class BattleManager
 	{
 	public:
-		BattleManager();
-		~BattleManager();
 
-		void startBattle(Player* player, Pokemon* pokemon); //Function to start the battle
+		void startBattle(Player* player, N_Pokemon::Pokemon* pokemon); //Function to start the battle
+		static void stopBattle();
 
 	private:
-		BattleState* battleState;
+		static BattleState battleState;
 
-		void battle(Pokemon* playerPokemon, Pokemon* wildPokemon, Player* player);//Function to implement battle 
-		void handleBattleOutcome(Player* player, bool playerWon); //Functio to decide what to afte battle
+		void battle();//Function to implement battle 
+		void handleBattleOutcome(); //Functio to decide what to afte battle
 		void updateBattleState();
 	};
 

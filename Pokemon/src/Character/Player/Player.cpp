@@ -2,53 +2,60 @@
 #include <iostream>
 #include "../../../include/Character/Player/Player.hpp"
 #include "../../../include/Pokemon/PokemonChoice.hpp"
-#include "../../../include/Pokemon/PokemonType.hpp"
 #include "../../../include/Utility/Utility.hpp"
-using namespace std;
-using namespace N_Utility;
-using namespace N_Pokemon;
-using namespace N_Player;
+#include "../../../include/Pokemon/Pokemons/Bulbasaur.hpp"
+#include "../../../include/Pokemon/Pokemons/Charmander.hpp"
+#include "../../../include/Pokemon/Pokemons/Squirtle.hpp"
+#include "../../../include/Pokemon/Pokemons/Pikachu.hpp"
 
-namespace N_Player {
-    //Default constructor
-    Player::Player()
+
+
+namespace N_Character
+{
+    namespace N_Player
     {
-        name = "Trainer";
-        chosenPokemon = new Pokemon();//Using the default Pokemon constructor
-    }
+        using namespace N_Utility;
+        using namespace N_Pokemon;
+        using namespace N_Pokemons;
 
-    //Parameterized constructor
-    Player::Player(string p_name, Pokemon* p_chosenPokemon)
-    {
-        name = p_name;
-        chosenPokemon = p_chosenPokemon;
-    }
-
-
-    //Function to choose a pokemon
-    void Player::choosePokemon(int choice)
-    {
-        //Store the choice integer to respective pokemon
-        switch ((PokemonChoice)choice)
+        //Default constructor
+        Player::Player()
         {
-        case PokemonChoice::CHARMANDER:
-            chosenPokemon =new  Pokemon("Charmander", PokemonType::FIRE, 100, 100, 20);
-            break;
-        case PokemonChoice::BULBASAUR:
-            chosenPokemon =new  Pokemon("Bulbasaur", PokemonType::GRASS, 100, 120, 16);
-            break;
-        case PokemonChoice::SQUIRTLE:
-            chosenPokemon =new Pokemon("Squirtle", PokemonType::WATER, 100, 80, 24);
-            break;
-        default:
-            chosenPokemon =new Pokemon("Pikachu", PokemonType::ELECTRIC, 100, 110, 22);
+            name = "Trainer";
         }
-        cout << "Player " << name << " chose " << chosenPokemon->getName() << "!" << endl;
 
-        Utility::waitForEnter();
-    }
+        //Parameterized constructor
+        Player::Player(string p_name)
+        {
+            name = p_name;
+        }
 
-    Player::~Player() {
-        delete chosenPokemon;
+
+        //Function to choose a pokemon
+        void Player::choosePokemon(int choice)
+        {
+            //Store the choice integer to respective pokemon
+            switch ((PokemonChoice)choice)
+            {
+            case PokemonChoice::CHARMANDER:
+                chosenPokemon = new Charmander();
+                break;
+            case PokemonChoice::BULBASAUR:
+                chosenPokemon = new Bulbasaur();
+                break;
+            case PokemonChoice::SQUIRTLE:
+                chosenPokemon = new Squirtle();
+                break;
+            default:
+                chosenPokemon = new Pikachu();
+            }
+            cout << "Player " << name << " chose " << chosenPokemon->name << "!" << endl;
+
+            Utility::waitForEnter();
+        }
+
+        Player::~Player() {
+            delete chosenPokemon;
+        }
     }
 }

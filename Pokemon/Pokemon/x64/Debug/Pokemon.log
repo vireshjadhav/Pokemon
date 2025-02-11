@@ -1,7 +1,6 @@
 ﻿  main.cpp
   BattleManager.cpp
   WildEncounterManager.cpp
-F:\CPP Projects\Pokemon\Pokemon\src\Battle\WildEncounterManager.cpp(11,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
   Player.cpp
   ProfessorOak.cpp
   Game.cpp
@@ -13,6 +12,7 @@ F:\CPP Projects\Pokemon\Pokemon\src\Battle\WildEncounterManager.cpp(11,12): warn
   Pikachu.cpp
   Squirtle.cpp
   Zubat.cpp
+F:\CPP Projects\Pokemon\Pokemon\src\Pokemon\Pokemons\Zubat.cpp(26,52): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
   Utility.cpp
   Generating Code...
   Pokemon.vcxproj -> F:\CPP Projects\Pokemon\Pokemon\x64\Debug\Pokemon.exe

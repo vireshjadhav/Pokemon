@@ -116,5 +116,8 @@
     <ClInclude Include="include\Pokemon\Pokemons\Bulbasaur.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="include\Pokemon\Move.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -1,15 +1,18 @@
-//WildEncounterManager.hpp
-#pragma once
-#include <vector>
-#include "../../include/Pokemon/Pokemon.hpp"
-#include "../../include/Pokemon/grass.hpp"
-using namespace N_Pokemon;
+#include "../Pokemon/Pokemon.hpp"
 
-namespace N_Battle {
-	class WildEncounterManager
-	{
-	public:
-		WildEncounterManager();
-		Pokemon* getRandomPokemonFromGrass(const Grass* grass);
-	};
+namespace N_Pokemon
+{
+    struct Grass;
+    class Pokemon;
+}
+
+namespace N_Battle
+{
+    using namespace N_Pokemon;
+
+    class WildEncounterManager {
+    public:
+        WildEncounterManager();
+        N_Pokemon::Pokemon* getRandomPokemonFromGrass(const Grass& grass);
+    };
 }

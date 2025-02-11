@@ -3,20 +3,33 @@
 #include "../../../include/Pokemon/Pokemon.hpp"
 #include "../../../include/Pokemon/PokemonType.hpp"
 #include "../../../include/Pokemon/Pokemons/Caterpie.hpp"
+#include "../../../include/Pokemon/Move.hpp"
+#include "../../../include/Utility/Utility.hpp"
 using namespace N_Pokemon;
+using namespace N_Utility;
 
 namespace N_Pokemon {
 	namespace N_Pokemons {
 		using namespace std;
 
-		Caterpie::Caterpie() :Pokemon("Caterpie", PokemonType::NORMAL, 100, 100, 10) {}
+		Caterpie::Caterpie() :Pokemon("Caterpie", PokemonType::NORMAL, 100, 100, 10, { Move("STICKY WEB", 10), Move("TACKLE", 10) }) {}
 
 		Caterpie::~Caterpie() {}
 
-		void Caterpie::Bugbite(Pokemon* target)
-		{
-			cout << name << "uses bug bite Attack on" << target->getName() << "!" << endl;
-			target->takeDamage(10);
-		}
+        void Caterpie::attack(Move selectedMove, Pokemon* target) 
+        {
+            
+            Pokemon::attack(selectedMove, target);
+
+            if (selectedMove.name == "STICKY WEB")
+            {
+                // Reduce the target's next attack damage (for simplicity, reducing by a fixed value)
+                int reduced_Damage = 5;
+                
+                target->reduceAttackPower(reduced_Damage);
+                
+                std::cout << target->name << "'s next attack will be reduced by " << reduced_Damage << " damage!\n";
+            }
+        }
 	}
 }
