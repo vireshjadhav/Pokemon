@@ -1,9 +1,14 @@
 #pragma once
 #include <string>
 #include <vector>
+#include "Move.hpp"
+#include "../../include/StatusEffects/IStatusEffect.hpp"
+#include "../../include/StatusEffects/StatusEffectType.hpp"
 using namespace std;
+using namespace N_Pokemon::N_StatusEffect;
 
-namespace N_Pokemon{
+namespace N_Pokemon
+{
     struct Move;
     enum class PokemonType;
 
@@ -17,6 +22,7 @@ namespace N_Pokemon{
         int maxHealth;
         int attackPower;
         vector <Move> moves;
+        IStatusEffect* appliedEffect;
 
         Pokemon(); //default constructor 
         Pokemon(string p_name, PokemonType P_type, int p_heath, int p_maxHealth, int p_attackPower, vector <Move> p_moves); //parameterized constructor
@@ -36,11 +42,22 @@ namespace N_Pokemon{
 
         void reduceAttackPower(int reduced_Damage);
 
+
+        bool canAttack();
+
+        bool canApplyEffect();
+
+        void applyEffect(StatusEffectType effectToApply);
+        
+        void clearEffect();
+
     protected:
+
         void printAvailableMoves();
 
         int selectMove();
 
         void useMove(Move selectedMove, Pokemon* target);
+
     };
 }

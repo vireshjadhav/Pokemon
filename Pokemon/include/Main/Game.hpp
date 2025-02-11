@@ -11,7 +11,7 @@ namespace N_Main {
 	{
 	private:
 		Grass forestGrass;
-		Pokemon* wildPokemon;
+		N_Pokemon::Pokemon* wildPokemon;
 
 	public:
 		Game();
